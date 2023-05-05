@@ -8,6 +8,7 @@ export const Partner = ({ t }) => {
     aos.init({ once: true });
   }, []);
   const listPartner = t("partner.list_partner", { returnObjects: true });
+  console.log(listPartner);
   return (
     <div id="partner" className="partner-container">
       <div
@@ -28,13 +29,13 @@ export const Partner = ({ t }) => {
         data-aos-offset="600"
         className="list-partner"
       >
-        {listPartner?.map((item) => {
+        {/* {listPartner?.map((item) => {
           return (
             <div className="partner">
               <img className={item.class} src={item.image} />
             </div>
           );
-        })}
+        })} */}
       </div>
     </div>
   );

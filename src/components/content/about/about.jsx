@@ -32,7 +32,7 @@ export const About = ({ t }) => {
           <div className="bottom"></div>
         </div>
 
-        <div className="about-list-icon about-list-icon-1">
+        {/* <div className="about-list-icon about-list-icon-1">
           {aboutMap?.map((item, index) => {
             return (
               <div
@@ -50,7 +50,7 @@ export const About = ({ t }) => {
               </div>
             );
           })}
-        </div>
+        </div> */}
         <div className="about-list-icon about-list-icon-2">
           <Swiper
             spaceBetween={50}
