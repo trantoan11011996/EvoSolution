@@ -1,7 +1,7 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
-import English from "./en.json";
-import Vietnamese from "./vi.json";
+import English from "../i18n/en.json";
+import Vietnamese from "../i18n/vi.json";
 
 const getLocalLang = localStorage.getItem("lang");
 console.log("getLocal", getLocalLang);
@@ -16,6 +16,7 @@ const resources = {
 
 i18n.use(initReactI18next).init({
   resources,
+  debug: true,
   lng: getLocalLang,
   interpolation: {
     escapeValue: false,
