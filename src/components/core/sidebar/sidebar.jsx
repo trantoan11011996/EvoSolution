@@ -53,7 +53,7 @@ export const SideBar = ({ isOpen, closeSideBar, t }) => {
             {t("sidebar.homepage.title")}
           </a>
         </li>
-        {sidebarMap?.map((item, index) => {
+        {/* {sidebarMap?.map((item, index) => {
           return (
             <li
               key={index}
@@ -65,7 +65,7 @@ export const SideBar = ({ isOpen, closeSideBar, t }) => {
               </a>
             </li>
           );
-        })}
+        })} */}
       </ul>
       <div className="sidebar-about">
         <span>{t("sidebar.paragraph")}</span>

@@ -1,5 +1,5 @@
 {
-  "name": "landingpage-react-template",
+  "name": "evosolution",
   "private": true,
   "homepage": "https://trantoan11011996.github.io/evosolution",
   "dependencies": {
@@ -19,6 +19,7 @@
     "emailjs-com": "^2.6.4",
     "font-awesome": "^4.7.0",
     "framer-motion": "^6.5.1",
+    "gh-pages": "^5.0.0",
     "i18next": "^22.4.15",
     "i18next-http-backend": "^2.2.0",
     "i18next-xhr-backend": "^3.2.2",
