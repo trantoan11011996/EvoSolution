@@ -23,7 +23,6 @@ i18n
   .use(LanguageDetector)
 
   .use(initReactI18next)
-  .use(initReactI18next)
   .init({
     resources,
     debug: true,
