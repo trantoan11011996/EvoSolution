@@ -4,6 +4,7 @@ import English from "../i18n/en.json";
 import Vietnamese from "../i18n/vi.json";
 import Backend from "i18next-http-backend";
 import LanguageDetector from "i18next-browser-languagedetector";
+import XHR from "i18next-xhr-backend";
 
 const getLocalLang = localStorage.getItem("lang");
 console.log("getLocal", getLocalLang);
@@ -26,9 +27,12 @@ i18n
   .init({
     resources,
     debug: true,
-    lng: getLocalLang,
+    fallbackLng: getLocalLang,
     interpolation: {
       escapeValue: false,
+    },
+    backend: {
+      loadPath: "evosolution/i18n/{{ns}}.json",
     },
   });
 
