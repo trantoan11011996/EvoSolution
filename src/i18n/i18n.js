@@ -27,7 +27,7 @@ i18n
   .init({
     resources,
     debug: true,
-    fallbackLng: getLocalLang,
+    lng: getLocalLang,
     interpolation: {
       escapeValue: false,
     },
