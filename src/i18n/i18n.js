@@ -31,9 +31,6 @@ i18n
     interpolation: {
       escapeValue: false,
     },
-    backend: {
-      loadPath: "evosolution/i18n/{{ns}}.json",
-    },
   });
 
 export default i18n;
