@@ -34,7 +34,7 @@ export const Header = ({ data, openSideBar, isOpen, t }) => {
             <p>{t("header.paragraph")}</p>
             <button className="btn-header">
               {" "}
-              <a href="#features">{t("header.contact")}</a>{" "}
+              <a href="#contact">{t("header.contact")}</a>{" "}
             </button>
           </div>
         </div>
