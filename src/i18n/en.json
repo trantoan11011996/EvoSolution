@@ -142,37 +142,37 @@
       "paragraph" : "We always work with the highest sense of responsibility, always attaching the responsibility of each individual on all daily tasks. Since then, the company is committed to quality with each product and service that the company provides, ensuring the interests of customers in the most reasonable way..",
       "project_list" : [{
         "linkProject" : "https://era.edu.vn/",
-        "imageProject": "../img/project_company/project1.svg",
+        "imageProject": "../evosolution/img/project_company/project1.svg",
         "titleProject": "ERA . Sex Education",
         "descProject": "Sex education system for children, updating information and skills for young sex education for families and schools."
       },
       {
         "linkProject" : "https://testuru.com/",
-        "imageProject": "../img/project_company/project2.svg",
+        "imageProject": "../evosolution/img/project_company/project2.svg",
         "titleProject": "IELTS mock test online TESTURU",
         "descProject": "Online IELTS practice test and preparation system"
       },
       {
         "linkProject" : "",
-        "imageProject": "../img/project_company/project3.svg",
+        "imageProject": "../evosolution/img/project_company/project3.svg",
         "titleProject": "Timekeeping BWORK",
         "descProject": "Time attendance application for businesses, manage working hours, late hours from which to calculate the total salary for employees."
       },
       {
         "linkProject" : "",
-        "imageProject": "../img/project_company/project4.svg",
+        "imageProject": "../evosolution/img/project_company/project4.svg",
         "titleProject": "JOCO travel social network",
         "descProject": "Social network to share travel information: destinations, travel experiences, tours, restaurants, hotels."
       },
       {
         "linkProject" : "",
-        "imageProject": "../img/project_company/project5.svg",
+        "imageProject": "../evosolution/img/project_company/project5.svg",
         "titleProject": "Takamart",
         "descProject": "App for buying and selling classifieds, allowing buyers and sellers to connect and transact online."
       },
       {
         "linkProject" : "",
-        "imageProject": "../img/project_company/project6.svg",
+        "imageProject": "../evosolution/img/project_company/project6.svg",
         "titleProject": "Phu Quoc Market",
         "descProject": "Online shopping and classifieds application developed exclusively for people living and working in Phu Quoc."
       }]
@@ -182,52 +182,52 @@
       "paragraph" : "EvoSolution members are always thinking, learning new technology and ready to accept the opportunity to hone more skills and experience. The desire for creativity is always present in every member at EvoSolution.",
       "techno_icon" :[
         {
-          "icon" : "../img/techno_icon/free-postgresql-226047.png",
+          "icon" : "../evosolution/img/techno_icon/free-postgresql-226047.png",
           "title" : "PostgreSQL"
         },
         {
-          "icon" : "../img/techno_icon/flutter.png",
+          "icon" : "../evosolution/img/techno_icon/flutter.png",
           "title" : "Flutter"
         },
         {
-          "icon" : "../img/techno_icon/nodejs.png",
+          "icon" : "../evosolution/img/techno_icon/nodejs.png",
           "title" : "Nodejs"
         },
         {
-          "icon" : "../img/techno_icon/android_robot.svg",
+          "icon" : "../evosolution/img/techno_icon/android_robot.svg",
           "title" : "Android"
         },
         {
-          "icon" : "../img/techno_icon/docker.png",
+          "icon" : "../evosolution/img/techno_icon/docker.png",
           "title" : "Docker"
         },
         {
-          "icon" : "../img/techno_icon/ios.png",
+          "icon" : "../evosolution/img/techno_icon/ios.png",
           "title" : "iOS"
         },
         {
-          "icon" : "../img/techno_icon/react_native.svg",
+          "icon" : "../evosolution/img/techno_icon/react_native.svg",
           "title" : "React Native"
         },
         {
-          "icon" : "../img/techno_icon/vuejs.svg",
+          "icon" : "../evosolution/img/techno_icon/vuejs.svg",
           "title" : "Vuejs"
         },
         {
-          "icon" : "../img/techno_icon/php2.png",
+          "icon" : "../evosolution/img/techno_icon/php2.png",
           "title" : "PHP"
         },
         {
-          "icon" : "../img/techno_icon/lavarel.png",
+          "icon" : "../evosolution/img/techno_icon/lavarel.png",
           "title" : "Laravel"
         },
         {
-          "icon" : "../img/techno_icon/java.png",
+          "icon" : "../evosolution/img/techno_icon/java.png",
           "title" : "Java"
         },
         {
           "title" : "WordPress",
-          "icon" : "../img/techno_icon/wordpress.png"
+          "icon" : "../evosolution/img/techno_icon/wordpress.png"
         }
       ]
     },
@@ -236,35 +236,35 @@
       "paragraph" : "We always take the goal and the final destination is the customer. Therefore, ensuring and fulfilling commitments to customers is always a top goal for us.",
       "list_partner" :[
           {
-            "image" : "../img/company/vihat.png",
+            "image" : "../evosolution/img/company/vihat.png",
             "class" : "vihat"
           },
           {
-            "image" : "../img/company/testuru.png",
+            "image" : "../evosolution/img/company/testuru.png",
             "class" : "testuru"
           },
           {
-            "image" : "../img/company/315.png",
+            "image" : "../evosolution/img/company/315.png",
             "class" : "hopistal"
           },
           {
-            "image" : "../img/company/mobifone.png",
+            "image" : "../evosolution/img/company/mobifone.png",
             "class"  : "mobifone"
           },
           {
-            "image" : "../img/company/viettel2.png",
+            "image" : "../evosolution/img/company/viettel2.png",
             "class" : "viettel"
           },
           {
-            "image" : "../img/company/era.png",
+            "image" : "../evosolution/img/company/era.png",
             "class" : "era"
           },
           {
-            "image" : "../img/company/takamart.jpg",
+            "image" : "../evosolution/img/company/takamart.jpg",
             "class" : "takamart"
           }, 
           {
-            "image" : "../img/company/trobz.png",
+            "image" : "../evosolution/img/company/trobz.png",
             "class" : "trobz"
           }
       ]
