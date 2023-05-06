@@ -29,7 +29,7 @@ export const Header = ({ data, openSideBar, isOpen, t }) => {
 
         <div className="container-content">
           <div className="intro-text">
-            <h1 className="header-content-banner">{t("header.title")}</h1>
+            <h1 className="header-content-banner">{t("header.title")}aaaaaa</h1>
             <p>{t("header.paragraph")}</p>
             <button className="btn-header">
               {" "}
