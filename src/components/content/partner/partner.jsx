@@ -29,13 +29,13 @@ export const Partner = ({ t }) => {
         data-aos-offset="600"
         className="list-partner"
       >
-        {listPartner?.map((item) => {
+        {/* {listPartner?.map((item) => {
           return (
             <div className="partner">
               <img className={item.class} src={item.image} />
             </div>
           );
-        })}
+        })} */}
       </div>
     </div>
   );
