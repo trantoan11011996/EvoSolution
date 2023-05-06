@@ -28,14 +28,14 @@ export const Technology = ({ t }) => {
         data-aos-easing="linear"
         className="technology-icon"
       >
-        {/* {listTechnology?.map((item, index) => {
+        {listTechnology?.map((item, index) => {
           return (
             <div key={index} className="icon-item mb-5">
               <img src={item.icon} />
               <p>{item.title}</p>
             </div>
           );
-        })} */}
+        })}
       </div>
     </div>
   );

@@ -33,7 +33,7 @@ export const About = ({ t }) => {
         </div>
 
         <div className="about-list-icon about-list-icon-1">
-          {/* {aboutMap?.map((item, index) => {
+          {aboutMap?.map((item, index) => {
             return (
               <div
                 data-aos="fade-right"
@@ -49,7 +49,7 @@ export const About = ({ t }) => {
                 <p>{item.title}</p>
               </div>
             );
-          })} */}
+          })}
         </div>
         <div className="about-list-icon about-list-icon-2">
           <Swiper
@@ -75,7 +75,7 @@ export const About = ({ t }) => {
               },
             }}
           >
-            {/* {aboutMap?.map((item, index) => {
+            {aboutMap?.map((item, index) => {
               return (
                 <SwiperSlide>
                   {" "}
@@ -94,7 +94,7 @@ export const About = ({ t }) => {
                   </div>
                 </SwiperSlide>
               );
-            })} */}
+            })}
           </Swiper>
         </div>
       </div>
