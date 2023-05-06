@@ -42,6 +42,9 @@ export const SideBar = ({ isOpen, closeSideBar, t }) => {
           onClick={() => handleCloseSideBar()}
         ></div>
       </div>
+      <a className="sidebar-item" href={`/evosolution/#features`}>
+        {item.title}
+      </a>
       <ul className="sidebar-content">
         <li className="sidebar-list-item">
           <a
