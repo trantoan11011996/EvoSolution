@@ -148,31 +148,31 @@
       },
       {
         "linkProject" : "https://testuru.com/",
-        "imageProject": "../img/project_company/project2.svg",
+        "imageProject": "../evosolution/img/project_company/project2.svg",
         "titleProject": "Thi thử IELTS online TESTURU",
         "descProject": "Hệ thống thi thử và ôn luyện IELTS trực tuyến"
       },
       {
         "linkProject" : "",
-        "imageProject": "../img/project_company/project3.svg",
+        "imageProject": "../evosolution/img/project_company/project3.svg",
         "titleProject": "Chấm công BWORK",
         "descProject": "Ứng dụng chấm công cho doanh nghiệp, quản lý giờ đi làm, giờ trễ từ đó tính tổng lương cho nhân viên."
       },
       {
         "linkProject" : "",
-        "imageProject": "../img/project_company/project4.svg",
+        "imageProject": "../evosolution/img/project_company/project4.svg",
         "titleProject": "Mạng xã hội du lịch JOCO",
         "descProject": "Mạng xã hội chia sẻ thông tin du lịch: điểm đến, kinh nghiệm du lịch, tour, nhà hàng, khách sạn."
       },
       {
         "linkProject" : "",
-        "imageProject": "../img/project_company/project5.svg",
+        "imageProject": "../evosolution/img/project_company/project5.svg",
         "titleProject": "Takamart",
         "descProject": "Ứng dụng mua bán rao vặt, cho phép người mua và người bán kết nối và giao dịch online."
       },
       {
         "linkProject" : "",
-        "imageProject": "../img/project_company/project6.svg",
+        "imageProject": "../evosolution/img/project_company/project6.svg",
         "titleProject": "Chợ Phú Quốc",
         "descProject": "Ứng dụng mua bán, rao vặt trực tuyến được phát triển dành riêng cho người dân sinh sống và làm việc tại Phú Quốc."
       }]
@@ -182,52 +182,52 @@
       "paragraph" : "Các thành viên EvoSolution luôn không ngừng tư duy, học hỏi công nghệ mới và sẵn sàng đón nhận cơ hội để trau dồi thêm nhiều kỹ năng và kinh nghiệm. Khao khát sáng tạo luôn luôn hiện hữu trong mọi thành viên tại EvoSolution.",
       "techno_icon" :[
         {
-          "icon" : "../img/techno_icon/free-postgresql-226047.png",
+          "icon" : "../evosolution/img/techno_icon/free-postgresql-226047.png",
           "title" : "PostgreSQL"
         },
         {
-          "icon" : "../img/techno_icon/flutter.png",
+          "icon" : "../evosolution/img/techno_icon/flutter.png",
           "title" : "Flutter"
         },
         {
-          "icon" : "../img/techno_icon/nodejs.png",
+          "icon" : "../evosolution/img/techno_icon/nodejs.png",
           "title" : "Nodejs"
         },
         {
-          "icon" : "../img/techno_icon/android_robot.svg",
+          "icon" : "../evosolution/img/techno_icon/android_robot.svg",
           "title" : "Android"
         },
         {
-          "icon" : "../img/techno_icon/docker.png",
+          "icon" : "../evosolution/img/techno_icon/docker.png",
           "title" : "Docker"
         },
         {
-          "icon" : "../img/techno_icon/ios.png",
+          "icon" : "../evosolution/img/techno_icon/ios.png",
           "title" : "iOS"
         },
         {
-          "icon" : "../img/techno_icon/react_native.svg",
+          "icon" : "../evosolution/img/techno_icon/react_native.svg",
           "title" : "React Native"
         },
         {
-          "icon" : "../img/techno_icon/vuejs.svg",
+          "icon" : "../evosolution/img/techno_icon/vuejs.svg",
           "title" : "Vuejs"
         },
         {
-          "icon" : "../img/techno_icon/php2.png",
+          "icon" : "../evosolution/img/techno_icon/php2.png",
           "title" : "PHP"
         },
         {
-          "icon" : "../img/techno_icon/lavarel.png",
+          "icon" : "../evosolution/img/techno_icon/lavarel.png",
           "title" : "Laravel"
         },
         {
-          "icon" : "../img/techno_icon/java.png",
+          "icon" : "../evosolution/img/techno_icon/java.png",
           "title" : "Java"
         },
         {
           "title" : "WordPress",
-          "icon" : "../img/techno_icon/wordpress.png"
+          "icon" : "../evosolution/img/techno_icon/wordpress.png"
         }
       ]
     },
@@ -236,35 +236,35 @@
       "paragraph" : "Chúng tôi luôn lấy mục tiêu và đích đến cuối cùng là khách hàng. Vì thế việc bảo đảm và thực hiện cam kết với khách hàng luôn là mục tiêu hàng đầu với chúng tôi.",
       "list_partner" :[
           {
-            "image" : "../img/company/vihat.png",
+            "image" : "../evosolution/img/company/vihat.png",
             "class" : "vihat"
           },
           {
-            "image" : "../img/company/testuru.png",
+            "image" : "../evosolution/img/company/testuru.png",
             "class" : "testuru"
           },
           {
-            "image" : "../img/company/315.png",
+            "image" : "../evosolution/img/company/315.png",
             "class" : "hopistal"
           },
           {
-            "image" : "../img/company/mobifone.png",
+            "image" : "../evosolution/img/company/mobifone.png",
             "class"  : "mobifone"
           },
           {
-            "image" : "../img/company/viettel2.png",
+            "image" : "../evosolution/img/company/viettel2.png",
             "class" : "viettel"
           },
           {
-            "image" : "../img/company/era.png",
+            "image" : "../evosolution/img/company/era.png",
             "class" : "era"
           },
           {
-            "image" : "../img/company/takamart.jpg",
+            "image" : "../evosolution/img/company/takamart.jpg",
             "class" : "takamart"
           }, 
           {
-            "image" : "../img/company/trobz.png",
+            "image" : "../evosolution/img/company/trobz.png",
             "class" : "trobz"
           }
       ]
