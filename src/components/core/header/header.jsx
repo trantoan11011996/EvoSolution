@@ -4,6 +4,7 @@ import ParticlesBg from "../../particleBg";
 import "./header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faThumbsUp, faChartBar } from "@fortawesome/free-regular-svg-icons";
+import { Link } from "react-router-dom";
 
 export const Header = ({ data, openSideBar, isOpen, t }) => {
   const handleOpenSideBar = () => {
@@ -12,7 +13,7 @@ export const Header = ({ data, openSideBar, isOpen, t }) => {
   return (
     <header id="homepage" className="container-header">
       <div className="logo-image">
-        <a href="/">
+        <a href="/evosolution">
           <img src="../img/header/logo.svg" />
         </a>
       </div>
