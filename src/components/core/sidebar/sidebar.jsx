@@ -43,7 +43,7 @@ export const SideBar = ({ isOpen, closeSideBar, t }) => {
         ></div>
       </div>
       <a className="sidebar-item" href={`/evosolution/#features`}>
-        {item.title}
+        gitfeatures
       </a>
       <ul className="sidebar-content">
         <li className="sidebar-list-item">
