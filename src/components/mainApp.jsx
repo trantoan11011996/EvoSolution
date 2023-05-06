@@ -9,9 +9,8 @@ import { Technology } from "./content/technology/technology";
 import { Partner } from "./content/partner/partner";
 import { Footer } from "./core/footer/footer";
 import { useTranslation } from "react-i18next";
-import i18n from "../i18n/i18n";
-import i18next from "i18next";
-
+import "./main.css";
+import { FaArrowUp } from "react-icons/fa";
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 20,
   speedAsDuration: true,
@@ -26,6 +25,9 @@ export default function MainApp() {
   const closeSideBar = () => {
     setIsOpen((curent) => !curent);
   };
+  const toTopPage = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <div>
       <SideBar t={t} isOpen={isOpen} closeSideBar={closeSideBar} />
@@ -37,6 +39,9 @@ export default function MainApp() {
       <Technology t={t} />
       <Partner t={t} />
       <Footer t={t} />
+      <div className="myBtn" onClick={() => toTopPage()} title="Go to top">
+        <FaArrowUp></FaArrowUp>
+      </div>
       {/* <Contact data={landingPageData.Contact} /> */}
     </div>
   );

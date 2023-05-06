@@ -1,0 +1,19 @@
+.myBtn {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 50px;
+  right: 25px;
+  background-color: var(--bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
