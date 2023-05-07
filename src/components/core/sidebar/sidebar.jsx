@@ -47,7 +47,7 @@ export const SideBar = ({ isOpen, closeSideBar, t }) => {
         <li className="sidebar-list-item">
           <a
             className="sidebar-item"
-            href="/evosolution/#homepage"
+            href="/#homepage"
             // onClick={() => window.location.reload()}
             onClick={() => handleCloseSideBar()}
           >
@@ -61,7 +61,7 @@ export const SideBar = ({ isOpen, closeSideBar, t }) => {
               className="sidebar-list-item"
               onClick={() => handleCloseSideBar()}
             >
-              <a className="sidebar-item" href={`/evosolution/#${item.link}`}>
+              <a className="sidebar-item" href={`/#${item.link}`}>
                 {item.title}
               </a>
             </li>
