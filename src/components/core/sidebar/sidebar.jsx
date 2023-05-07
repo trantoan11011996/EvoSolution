@@ -56,7 +56,7 @@ export const SideBar = ({ isOpen, closeSideBar, t }) => {
         <li className="sidebar-list-item" onClick={() => handleCloseSideBar()}>
           <Link
             className="sidebar-item"
-            to={"/"}
+            to={"/evosolution"}
             onClick={() => scrollToElement("homepage")}
           >
             {t("sidebar.homepage.title")}
