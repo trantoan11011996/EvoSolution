@@ -17,13 +17,13 @@ const App = () => {
         <option value="en">English</option>
         <option value="vi">Vietnamese</option>
       </select> */}
-      <HashRouter>
+      <BrowserRouter>
         <Routes>
-          <Route exact path="/" element={<MainApp />}></Route>
+          <Route exact path="/evosolution" element={<MainApp />}></Route>
           <Route path="*" element={<NotFoundPage />} />
           {/* <Route path="/" element={<MainApp />}></Route> */}
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
       {/* <MainApp /> */}
     </>
   );
