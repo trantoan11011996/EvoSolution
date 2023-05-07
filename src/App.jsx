@@ -10,12 +10,13 @@ const App = () => {
         <option value="en">English</option>
         <option value="vi">Vietnamese</option>
       </select> */}
-      {/* <HashRouter>
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<MainApp />}></Route>
+          {/* <Route path="/" element={<MainApp />}></Route> */}
         </Routes>
-      </HashRouter> */}
-      <MainApp />
+      </BrowserRouter>
+      {/* <MainApp /> */}
     </>
   );
 };

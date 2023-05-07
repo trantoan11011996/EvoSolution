@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./sidebar.css";
 import i18n from "../../../i18n/i18n";
+import { Link } from "react-router-dom";
 
 export const SideBar = ({ isOpen, closeSideBar, t }) => {
   const [lang, setLang] = useState("");
