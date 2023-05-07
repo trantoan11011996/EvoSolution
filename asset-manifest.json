@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/evosolution/static/css/main.78570bf8.css",
-    "main.js": "/evosolution/static/js/main.d702f717.js",
+    "main.js": "/evosolution/static/js/main.ad34b4ad.js",
     "static/media/banner-1.png": "/evosolution/static/media/banner-1.c649f7e7cee58e57af0c.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/evosolution/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/Banner-1.svg": "/evosolution/static/media/Banner-1.355237a9d0c7506aa9a6.svg",
@@ -15,10 +15,10 @@
     "index.html": "/evosolution/index.html",
     "static/media/getFetch.cjs": "/evosolution/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.78570bf8.css.map": "/evosolution/static/css/main.78570bf8.css.map",
-    "main.d702f717.js.map": "/evosolution/static/js/main.d702f717.js.map"
+    "main.ad34b4ad.js.map": "/evosolution/static/js/main.ad34b4ad.js.map"
   },
   "entrypoints": [
     "static/css/main.78570bf8.css",
-    "static/js/main.d702f717.js"
+    "static/js/main.ad34b4ad.js"
   ]
 }
