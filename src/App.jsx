@@ -1,7 +1,14 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import MainApp from "./components/mainApp";
-import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  HashRouter,
+  Navigate,
+} from "react-router-dom";
+import { NotFoundPage } from "./components/404notfound/Notfound";
 const App = () => {
   return (
     <>
@@ -12,7 +19,8 @@ const App = () => {
       </select> */}
       <BrowserRouter>
         <Routes>
-          <Route path="/evosolution" element={<MainApp />}></Route>
+          <Route exact path="/" element={<MainApp />}></Route>
+          <Route path="*" element={<NotFoundPage />} />
           {/* <Route path="/" element={<MainApp />}></Route> */}
         </Routes>
       </BrowserRouter>

@@ -19,6 +19,7 @@ export default function MainApp() {
   const [isOpen, setIsOpen] = useState(false);
   const { t } = useTranslation();
 
+ 
   const openSideBar = () => {
     setIsOpen((curent) => !curent);
   };

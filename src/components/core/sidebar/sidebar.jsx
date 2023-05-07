@@ -30,6 +30,15 @@ export const SideBar = ({ isOpen, closeSideBar, t }) => {
       i18n.changeLanguage(langValue);
     }, 500);
   };
+
+  const scrollToElement = (elementID) => {
+    const element = document.getElementById(elementID);
+    const offsetTop = element.offsetTop;
+    window.scrollTo({
+      top: offsetTop,
+      behavior: "smooth",
+    });
+  };
   return (
     <div
       className={isOpen ? "sidebar-container open" : "sidebar-container close"}
@@ -44,15 +53,14 @@ export const SideBar = ({ isOpen, closeSideBar, t }) => {
         ></div>
       </div>
       <ul className="sidebar-content">
-        <li className="sidebar-list-item">
-          <a
+        <li className="sidebar-list-item" onClick={() => handleCloseSideBar()}>
+          <Link
             className="sidebar-item"
-            href="/evosolution/#homepage"
-            // onClick={() => window.location.reload()}
-            onClick={() => handleCloseSideBar()}
+            to={"/"}
+            onClick={() => scrollToElement("homepage")}
           >
             {t("sidebar.homepage.title")}
-          </a>
+          </Link>
         </li>
         {sidebarMap?.map((item, index) => {
           return (
@@ -61,7 +69,11 @@ export const SideBar = ({ isOpen, closeSideBar, t }) => {
               className="sidebar-list-item"
               onClick={() => handleCloseSideBar()}
             >
-              <a className="sidebar-item" href={`/evosolution/#${item.link}`}>
+              <a
+                className="sidebar-item"
+                // href={`#${item.link}`}
+                onClick={() => scrollToElement(item.link)}
+              >
                 {item.title}
               </a>
             </li>
