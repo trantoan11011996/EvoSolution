@@ -20,7 +20,7 @@ const App = () => {
       <BrowserRouter>
         <Routes>
           <Route exact={true} path="/evosolution" element={<MainApp />}></Route>
-          <Route path="/404" element={<PageNotFound />} />
+          <Route path="/404" element={<NotFoundPage />} />
           <Route path="*" element={<Navigate replace to="/404" />} />
           {/* <Route path="/" element={<MainApp />}></Route> */}
         </Routes>
