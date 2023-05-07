@@ -12,7 +12,7 @@ const App = () => {
       </select> */}
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<MainApp />}></Route>
+          <Route path="/evosolution" element={<MainApp />}></Route>
           {/* <Route path="/" element={<MainApp />}></Route> */}
         </Routes>
       </BrowserRouter>
