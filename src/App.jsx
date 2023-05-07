@@ -19,8 +19,9 @@ const App = () => {
       </select> */}
       <BrowserRouter>
         <Routes>
-          <Route exact path="/evosolution" element={<MainApp />}></Route>
-          <Route path="*" element={<NotFoundPage />} />
+          <Route exact={true} path="/evosolution" element={<MainApp />}></Route>
+          <Route path="/404" element={<PageNotFound />} />
+          <Route path="*" element={<Navigate replace to="/404" />} />
           {/* <Route path="/" element={<MainApp />}></Route> */}
         </Routes>
       </BrowserRouter>
