@@ -1,6 +1,7 @@
 {
   "name": "evosolution",
   "private": true,
+  "homepage": "https://trantoan11011996.github.io/evosolution",
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
