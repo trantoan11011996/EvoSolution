@@ -34,7 +34,7 @@ export const About = ({ t }) => {
         </div>
 
         <div className="about-list-icon about-list-icon-1">
-          {/* {aboutMap?.map((item, index) => {
+          {aboutMap?.map((item, index) => {
             return (
               <div
                 data-aos="fade-right"
@@ -50,7 +50,7 @@ export const About = ({ t }) => {
                 <p>{item.title}</p>
               </div>
             );
-          })} */}
+          })}
         </div>
         <div className="about-list-icon about-list-icon-2">
           <Swiper
@@ -76,26 +76,26 @@ export const About = ({ t }) => {
               },
             }}
           >
-              {aboutMap?.map((item, index) => {
-                return (
-                  <SwiperSlide>
-                    {" "}
-                    <div
-                      data-aos="fade-right"
-                      data-aos-offset="300"
-                      data-aos-duration="800"
-                      data-aos-easing="ease-in-sine"
-                      key={index}
-                      className="icon-content"
-                    >
-                      <div className="img-container">
-                        <img src={item.icon}></img>
-                      </div>
-                      <p>{item.title}</p>
+            {aboutMap?.map((item, index) => {
+              return (
+                <SwiperSlide>
+                  {" "}
+                  <div
+                    data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-duration="800"
+                    data-aos-easing="ease-in-sine"
+                    key={index}
+                    className="icon-content"
+                  >
+                    <div className="img-container">
+                      <img src={item.icon}></img>
                     </div>
-                  </SwiperSlide>
-                );
-              })}
+                    <p>{item.title}</p>
+                  </div>
+                </SwiperSlide>
+              );
+            })}
           </Swiper>
         </div>
       </div>
