@@ -25,6 +25,7 @@ export const SideBar = ({ isOpen, closeSideBar, t }) => {
     closeSideBar();
     window.location.reload();
     const langValue = e.target.value;
+    console.log(langValue);
     localStorage.setItem("lang", langValue);
     setTimeout(() => {
       i18n.changeLanguage(langValue);
@@ -56,13 +57,13 @@ export const SideBar = ({ isOpen, closeSideBar, t }) => {
         <li className="sidebar-list-item" onClick={() => handleCloseSideBar()}>
           <Link
             className="sidebar-item"
-            to={"/evosolution"}
+            to={"/"}
             onClick={() => scrollToElement("homepage")}
           >
             {t("sidebar.homepage.title")}
           </Link>
         </li>
-        {sidebarMap?.map((item, index) => {
+        {/* {sidebarMap?.map((item, index) => {
           return (
             <li
               key={index}
@@ -78,7 +79,7 @@ export const SideBar = ({ isOpen, closeSideBar, t }) => {
               </a>
             </li>
           );
-        })}
+        })} */}
       </ul>
       <div className="sidebar-about">
         <span>{t("sidebar.paragraph")}</span>

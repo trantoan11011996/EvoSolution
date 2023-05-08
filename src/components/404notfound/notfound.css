@@ -1,6 +1,6 @@
 :root {
   --font: "SVN-Gilroy";
-  --color: #007cba;
+  --color-404: #007cba;
 }
 
 .not-found {
@@ -25,7 +25,7 @@
   font-size: 40px;
   text-decoration-line: underline;
   text-decoration-style: solid;
-  text-decoration-color: var(--color);
+  text-decoration-color: var(--color-404);
 }
 .logo-content a:hover {
   color: var(--color);

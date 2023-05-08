@@ -27,12 +27,13 @@ export const Project = ({ t }) => {
         </div>
         <div className="project-list">
           <div className="row-project-list">
-            {listProject?.map((item, index) => {
+            {/* {listProject?.map((item, index) => {
               return (
                 <div
                   className="col-project-list mb-3"
                   data-aos="zoom-in"
                   data-aos-duration={1000 + index * 300}
+                  key={index}
                 >
                   <a href={item.linkProject} target="_blank">
                     <div className="image-project mb-3">
@@ -48,7 +49,7 @@ export const Project = ({ t }) => {
                   </div>
                 </div>
               );
-            })}
+            })} */}
           </div>
         </div>
       </div>

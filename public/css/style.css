@@ -34,6 +34,9 @@ ul,
 ol {
   list-style: none;
 }
+li {
+  list-style: none !important;
+}
 ul,
 ol {
   padding: 0;
@@ -97,4 +100,3 @@ hr {
 /* Features Section */
 
 /* Services Section */
-

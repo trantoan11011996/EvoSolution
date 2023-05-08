@@ -11,6 +11,7 @@ import { Footer } from "./core/footer/footer";
 import { useTranslation } from "react-i18next";
 import "./main.css";
 import { FaArrowUp } from "react-icons/fa";
+import i18next from "i18next";
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 20,
   speedAsDuration: true,
@@ -19,7 +20,6 @@ export default function MainApp() {
   const [isOpen, setIsOpen] = useState(false);
   const { t } = useTranslation();
 
- 
   const openSideBar = () => {
     setIsOpen((curent) => !curent);
   };
