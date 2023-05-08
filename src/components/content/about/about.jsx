@@ -76,7 +76,7 @@ export const About = ({ t }) => {
               },
             }}
           >
-              {/* {aboutMap?.map((item, index) => {
+              {aboutMap?.map((item, index) => {
                 return (
                   <SwiperSlide>
                     {" "}
@@ -95,7 +95,7 @@ export const About = ({ t }) => {
                     </div>
                   </SwiperSlide>
                 );
-              })} */}
+              })}
           </Swiper>
         </div>
       </div>
