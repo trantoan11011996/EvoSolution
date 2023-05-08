@@ -37,9 +37,9 @@ export const About = ({ t }) => {
           {aboutMap?.map((item, index) => {
             return (
               <div
-                data-aos="fade-right"
+                data-aos="zoom-in"
                 data-aos-offset="300"
-                data-aos-duration="800"
+                data-aos-duration="300"
                 data-aos-easing="ease-in-sine"
                 key={index}
                 className="icon-content"
@@ -81,10 +81,10 @@ export const About = ({ t }) => {
                 <SwiperSlide>
                   {" "}
                   <div
-                    data-aos="fade-right"
+                    data-aos="zoom-in"
                     data-aos-offset="300"
                     data-aos-duration="800"
-                    data-aos-easing="ease-in-sine"
+                    data-aos-easing="linear"
                     key={index}
                     className="icon-content"
                   >

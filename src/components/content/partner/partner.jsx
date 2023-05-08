@@ -24,15 +24,16 @@ export const Partner = ({ t }) => {
         <div className="bottom"></div>
       </div>
       <div
-        data-aos="fade-right"
+        data-aos="zoom-in"
         data-aos-duration="800"
         data-aos-offset="600"
+        data-aos-easing="linear"
         className="list-partner"
       >
         {listPartner?.map((item, index) => {
           return (
             <div className="partner">
-              <img className={item.class} src={item.image} key={index}/>
+              <img className={item.class} src={item.image} key={index} />
             </div>
           );
         })}

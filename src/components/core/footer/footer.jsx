@@ -36,7 +36,7 @@ export const Footer = ({ t }) => {
           <div className="form-input">
             <input
               className="input"
-              placeholder={t("footer.placeholder.phome.content")}
+              placeholder={t("footer.placeholder.phone.content")}
               type="text"
             ></input>
           </div>

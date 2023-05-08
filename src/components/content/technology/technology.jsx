@@ -22,7 +22,7 @@ export const Technology = ({ t }) => {
         <div className="bottom"></div>
       </div>
       <div
-        data-aos="fade-right"
+        data-aos="zoom-in"
         data-aos-duration="500"
         data-aos-offset="600"
         data-aos-easing="linear"

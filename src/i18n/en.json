@@ -57,13 +57,13 @@
         },
         "placeholder"  : {
           "name" :{
-            "content" : "First and last name"
+            "content" : "First and Last name"
           },
           "email" : {
             "content" : "Email"
           },
           "phone" :{
-            "content" : "v"
+            "content" : "Phone number"
           },
           "message" : {
             "content": "Message"
