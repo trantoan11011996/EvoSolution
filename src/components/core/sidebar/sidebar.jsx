@@ -25,7 +25,6 @@ export const SideBar = ({ isOpen, closeSideBar, t }) => {
     closeSideBar();
     window.location.reload();
     const langValue = e.target.value;
-    console.log(langValue);
     localStorage.setItem("lang", langValue);
     setTimeout(() => {
       i18n.changeLanguage(langValue);

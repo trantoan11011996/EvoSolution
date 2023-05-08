@@ -6,8 +6,11 @@ import Backend from "i18next-http-backend";
 import LanguageDetector from "i18next-browser-languagedetector";
 import XHR from "i18next-xhr-backend";
 
-const getLocalLang = localStorage.getItem("lang");
-console.log("getLocal", getLocalLang);
+let getLocalLang = localStorage.getItem("lang");
+
+if (!getLocalLang) {
+  getLocalLang = "vie";
+}
 const resources = {
   eng: {
     translation: English,
@@ -19,8 +22,6 @@ const resources = {
 
 i18n
   .use(Backend)
-
-  .use(LanguageDetector)
 
   .use(initReactI18next)
   .init({
