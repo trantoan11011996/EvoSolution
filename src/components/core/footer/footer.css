@@ -62,17 +62,22 @@
 .form-input {
   height: 35px;
 }
+
 .input-form {
   border: none;
-  border-bottom: 1px solid #ccc;
   outline: none;
+  border-bottom: 1px solid #ccc;
   height: 100%;
   padding-left: 5px;
   width: 100%;
+  transition: all ease 0.5s;
+}
+.input-form:focus {
+  border-bottom: 1px solid black;
 }
 .button-submit {
   width: 80%;
-  margin: 10px auto 0 auto;
+  margin: 55px auto 0 auto;
   border-radius: 10px;
   overflow: hidden;
   height: 45px;
@@ -97,7 +102,16 @@
   border-radius: 50%;
   animation: spin-anim 1.2s linear infinite;
 }
-
+.text-arena {
+  width: 100%;
+  border: 1px solid #ccc;
+  outline: none;
+  padding: 10px;
+  transition: all ease 0.5s;
+}
+.text-arena:focus {
+  border: 1px solid black;
+}
 @keyframes spin-anim {
   0% {
     transform: rotate(0deg);

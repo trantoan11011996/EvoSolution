@@ -52,7 +52,7 @@
         },
         "work_hours" : {
           "label" : "Thời gian làm việc",
-          "content" : "8:30 - 18:00 từ thứ 2 đến thứ 6"
+          "content" : "8:30 sáng - 18:00 chiều từ thứ 2 đến thứ 6"
         }     
     },
     "placeholder"  : {

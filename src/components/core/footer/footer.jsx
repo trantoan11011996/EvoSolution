@@ -9,6 +9,7 @@ import { ModalNotify } from "../../share/modal/modal";
 import { Errors } from "../../share/errors/errors";
 import ClipLoader from "react-spinners/ClipLoader";
 import { MainContext } from "../../../context/content";
+import { TextArena } from "../../share/input/textArena";
 
 export const Footer = ({ t }) => {
   const [showModal, setShowModal] = useState(false);
@@ -184,16 +185,13 @@ export const Footer = ({ t }) => {
             />
           </div>
           <div className="form-input">
-            <Input
+            <TextArena
               placeholder={t("footer.placeholder.message.content")}
               type={"string"}
-              register={{
-                ...register("message"),
-              }}
+              register={{ ...register("message") }}
               name={"message"}
-            />
+            ></TextArena>
           </div>
-
           <div className="button-submit">
             <button type="submit">
               {isSpinner ? (
