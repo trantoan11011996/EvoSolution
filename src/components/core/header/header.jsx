@@ -10,6 +10,15 @@ export const Header = ({ data, openSideBar, isOpen, t }) => {
   const handleOpenSideBar = () => {
     openSideBar();
   };
+
+  const scrollToElement = (elementID) => {
+    const element = document.getElementById(elementID);
+    const offsetTop = element.offsetTop;
+    window.scrollTo({
+      top: offsetTop,
+      behavior: "smooth",
+    });
+  };
   return (
     <header id="homepage" className="container-header">
       <div className="logo-image">
@@ -34,7 +43,9 @@ export const Header = ({ data, openSideBar, isOpen, t }) => {
             <p>{t("header.paragraph")}</p>
             <button className="btn-header">
               {" "}
-              <a href="#contact">{t("header.contact")}</a>{" "}
+              <a onClick={() => scrollToElement("contact")}>
+                {t("header.contact")}
+              </a>{" "}
             </button>
           </div>
         </div>

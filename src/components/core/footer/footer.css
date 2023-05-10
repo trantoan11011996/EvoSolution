@@ -19,12 +19,8 @@
   margin: 100px auto 0 auto;
   display: flex;
   border-radius: 5px;
-  height: 430px;
+  height: 510px;
   overflow: hidden;
-}
-.footer-form {
-  width: 65%;
-  background-color: white;
 }
 .footer-contact {
   background-color: white;
@@ -32,7 +28,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
+  height: fit-content;
   width: 35%;
   padding: 20px 20px;
 }
@@ -54,29 +50,32 @@
   padding: 25px 20px;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 50px;
   height: 100%;
+  width: 65%;
+  background-color: white;
 }
 ::placeholder {
   font-size: 18px;
   font-family: var(--font);
 }
 .form-input {
-  border-bottom: 1px solid #ccc;
   height: 35px;
 }
-.input {
+.input-form {
   border: none;
+  border-bottom: 1px solid #ccc;
   outline: none;
   height: 100%;
   padding-left: 5px;
+  width: 100%;
 }
 .button-submit {
   width: 80%;
-  margin: 20px auto 0 auto;
+  margin: 10px auto 0 auto;
   border-radius: 10px;
   overflow: hidden;
-  height: 60px;
+  height: 45px;
 }
 .button-submit button {
   background-color: var(--bg-color);
@@ -89,6 +88,23 @@
   font-family: var(--font);
   font-weight: 550;
   color: white;
+}
+.spinner {
+  width: 35px;
+  height: 35px;
+  border: 8px solid;
+  border-color: #3d5af1 transparent #3d5af1 transparent;
+  border-radius: 50%;
+  animation: spin-anim 1.2s linear infinite;
+}
+
+@keyframes spin-anim {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @media only screen and (max-width: 1140px) {

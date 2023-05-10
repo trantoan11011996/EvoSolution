@@ -44,7 +44,7 @@
             },
             "email" :{
               "label" : "Email",
-              "content" : "hoan.phungdang@evotek.vn"
+              "content" : "trantoan11011996@gmail.com"
             },
             "phone" :{
               "label" : "Phone number",
@@ -71,8 +71,12 @@
         },
         "submit" :{
           "content" : "Send Message"
+        },
+        "notify" : {
+          "success" : "Your information has been sent successfully !",
+          "fail" : "Your information has not been sent successfully, please try again!"
         }
-      },
+      }, 
       "features" :{
         "title" : "Service Provided",
         "paragraph" : "With the advantage of many years of experience in the technology field, we always bring many technology solutions to solve the needs of businesses.",
@@ -268,6 +272,31 @@
               "class" : "trobz"
             }
         ]
+      },
+      "formValidation" : {
+        "fullname" : {
+          "required" : "This field is required",
+          "minLength" : "Your name must be at least 2 character"
+        },
+        "email" : {
+          "required" : "This field is required",
+          "pattern" : "Please enter the correct email format"
+        },
+        "phoneNumber" : {
+          "required" : "This field is required",
+          "pattern" : "Phone number must be start with 03,07,08,05...",
+          "minLength" : "Phone number only contain 10 character",
+          "maxLength" : "Phone number only contain 10 character"
+        }
+      },
+      "notify" : {
+        "success" : "Your message has been sent successfully !",
+        "fail" : "Your information has not been sent successfully, please try again !"
+      },
+      "btnAction" : {
+        "close" : "Close",
+        "confirm" : "Confirm",
+        "back" : "Back"
       }
     }
     
