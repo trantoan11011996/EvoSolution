@@ -37,28 +37,28 @@ export const Footer = ({ t }) => {
   };
 
   const sendEmail = (e) => {
-    setIsSpinner(true);
-    emailjs
-      .sendForm(
-        CONFIG_EMAILJS.service_id,
-        CONFIG_EMAILJS.tempalate_id,
-        form.current,
-        CONFIG_EMAILJS.public_key
-      )
-      .then(
-        (result) => {
-          setShowModal(true);
-          setSuccess(true);
-          console.log("ok");
-          setIsSpinner(false);
-          setMessage("notify.success");
-        },
-        (error) => {
-          setSuccess(false);
-          setShowModal(true);
-          setMessage("notify.success");
-        }
-      );
+    // setIsSpinner(true);
+    // emailjs
+    //   .sendForm(
+    //     CONFIG_EMAILJS.service_id,
+    //     CONFIG_EMAILJS.tempalate_id,
+    //     form.current,
+    //     CONFIG_EMAILJS.public_key
+    //   )
+    //   .then(
+    //     (result) => {
+    //       setShowModal(true);
+    //       setSuccess(true);
+    //       console.log("ok");
+    //       setIsSpinner(false);
+    //       setMessage("notify.success");
+    //     },
+    //     (error) => {
+    //       setSuccess(false);
+    //       setShowModal(true);
+    //       setMessage("notify.success");
+    //     }
+    //   );
   };
 
   const closeModal = () => {
