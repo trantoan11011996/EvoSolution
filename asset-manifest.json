@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/evosolution/static/css/main.0c718980.css",
-    "main.js": "/evosolution/static/js/main.1f35da1d.js",
+    "main.css": "/evosolution/static/css/main.4cb61068.css",
+    "main.js": "/evosolution/static/js/main.30ef53c5.js",
     "static/media/banner-1.png": "/evosolution/static/media/banner-1.c649f7e7cee58e57af0c.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/evosolution/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/Banner-1.svg": "/evosolution/static/media/Banner-1.355237a9d0c7506aa9a6.svg",
@@ -15,11 +15,11 @@
     "static/media/notfound.png": "/evosolution/static/media/notfound.682d4b1285ca518b0c15.png",
     "index.html": "/evosolution/index.html",
     "static/media/getFetch.cjs": "/evosolution/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.0c718980.css.map": "/evosolution/static/css/main.0c718980.css.map",
-    "main.1f35da1d.js.map": "/evosolution/static/js/main.1f35da1d.js.map"
+    "main.4cb61068.css.map": "/evosolution/static/css/main.4cb61068.css.map",
+    "main.30ef53c5.js.map": "/evosolution/static/js/main.30ef53c5.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c718980.css",
-    "static/js/main.1f35da1d.js"
+    "static/css/main.4cb61068.css",
+    "static/js/main.30ef53c5.js"
   ]
 }
