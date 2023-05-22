@@ -186,32 +186,12 @@
         "title" : "PostgreSQL"
       },
       {
-        "icon" : "../evosolution/img/techno_icon/flutter.png",
-        "title" : "Flutter"
+        "icon" : "../evosolution/img/techno_icon/java.png",
+        "title" : "Java"
       },
       {
         "icon" : "../evosolution/img/techno_icon/nodejs.png",
         "title" : "Nodejs"
-      },
-      {
-        "icon" : "../evosolution/img/techno_icon/android_robot.svg",
-        "title" : "Android"
-      },
-      {
-        "icon" : "../evosolution/img/techno_icon/docker.png",
-        "title" : "Docker"
-      },
-      {
-        "icon" : "../evosolution/img/techno_icon/ios.png",
-        "title" : "iOS"
-      },
-      {
-        "icon" : "../evosolution/img/techno_icon/react_native.svg",
-        "title" : "React Native"
-      },
-      {
-        "icon" : "../evosolution/img/techno_icon/vuejs.svg",
-        "title" : "Vuejs"
       },
       {
         "icon" : "../evosolution/img/techno_icon/php2.png",
@@ -222,8 +202,28 @@
         "title" : "Laravel"
       },
       {
-        "icon" : "../evosolution/img/techno_icon/java.png",
-        "title" : "Java"
+        "icon" : "../evosolution/img/techno_icon/docker.png",
+        "title" : "Docker"
+      },
+      {
+        "icon" : "../evosolution/img/techno_icon/react_native.svg",
+        "title" : "React Native"
+      },
+      {
+        "icon" : "../evosolution/img/techno_icon/flutter.png",
+        "title" : "Flutter"
+      },
+      {
+        "icon" : "../evosolution/img/techno_icon/ios.png",
+        "title" : "iOS"
+      },
+      {
+        "icon" : "../evosolution/img/techno_icon/android_robot.svg",
+        "title" : "Android"
+      },
+      {
+        "icon" : "../evosolution/img/techno_icon/vuejs.svg",
+        "title" : "Vuejs"
       },
       {
         "title" : "WordPress",
