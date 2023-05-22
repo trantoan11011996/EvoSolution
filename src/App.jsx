@@ -1,10 +1,10 @@
 import React, { useState, useEffect, Suspense } from "react";
-import "./App.css";
 import MainApp from "./components/mainApp";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import ClipLoader from "react-spinners/ClipLoader";
 import { NotFoundPage } from "./components/404notfound/Notfound";
 import { MainContext } from "./context/content";
+import "./App.css";
+import "../src/assets/styles/custom.css";
 const App = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [action, setAction] = useState("");

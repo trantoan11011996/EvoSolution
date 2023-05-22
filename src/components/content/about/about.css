@@ -25,9 +25,8 @@
   padding-top: 80px;
   text-align: center;
 }
-.content-about-description {
-  max-width: 800px;
-  margin: 20px auto 0 auto;
+.content-about-description > p {
+  color: white;
 }
 .content-about-container > h1 {
   font-size: 40px;

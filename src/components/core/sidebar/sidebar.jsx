@@ -55,7 +55,7 @@ export const SideBar = ({ isOpen, closeSideBar, t }) => {
       <ul className="sidebar-content">
         <li className="sidebar-list-item" onClick={() => handleCloseSideBar()}>
           <Link
-            className="sidebar-item"
+            className="first-sidebar-item"
             to={"/"}
             onClick={() => scrollToElement("homepage")}
           >

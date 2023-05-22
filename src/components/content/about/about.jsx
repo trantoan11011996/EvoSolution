@@ -24,11 +24,11 @@ export const About = ({ t }) => {
           data-aos-duration="800"
           data-aos-easing="linear"
           data-aos-offset="200"
-          className="content-about-container"
+          className="container-content-header content-about-container"
         >
           <h1 className="content-about-header">{t("about.title")}</h1>
-          <div className="content-about-description">
-            <span>{t("about.paragraph")}</span>
+          <div className="header-content content-about-description">
+            <p>{t("about.paragraph")}</p>
           </div>
           <div className="bottom"></div>
         </div>

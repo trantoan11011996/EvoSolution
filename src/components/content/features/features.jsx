@@ -12,7 +12,7 @@ export const Features = ({ t }) => {
   return (
     <div id="features" className="text-center features-container">
       {" "}
-      <div className="container-features-header fadeInDown">
+      <div className="container-content-header container-features-header fadeInDown">
         <h2 className="header">{t("features.title")}</h2>
         <div className="header-content">
           <p className="">{t("features.paragraph")}</p>

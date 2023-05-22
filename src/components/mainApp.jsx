@@ -9,10 +9,11 @@ import { Technology } from "./content/technology/technology";
 import { Partner } from "./content/partner/partner";
 import { Footer } from "./core/footer/footer";
 import { useTranslation } from "react-i18next";
-import "./main.css";
 import { FaArrowUp } from "react-icons/fa";
 import ClipLoader from "react-spinners/ClipLoader";
 import { MainContext } from "../context/content";
+import "./main.css";
+
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 20,
   speedAsDuration: true,

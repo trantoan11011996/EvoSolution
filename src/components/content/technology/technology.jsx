@@ -13,10 +13,10 @@ export const Technology = ({ t }) => {
         data-aos-duration="500"
         data-aos-offset="600"
         data-aos-easing="linear"
-        className="technology-content"
+        className="container-content-header technology-content"
       >
         <h1>{t("technology.title")}</h1>
-        <div className="description">
+        <div className="header-content description">
           <p>{t("technology.paragraph")}</p>
         </div>
         <div className="bottom"></div>

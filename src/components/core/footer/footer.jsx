@@ -84,7 +84,7 @@ export const Footer = ({ t }) => {
         data-aos-offset="300"
         data-aos-duration="500"
         data-aos-easing="ease-in-sine"
-        className="footer-content"
+        className="container-content-header footer-content"
       >
         <h1>{t("footer.title")}</h1>
         <div className="bottom"></div>

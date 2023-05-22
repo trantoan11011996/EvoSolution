@@ -17,10 +17,10 @@ export const Project = ({ t }) => {
           data-aos="zoom-in"
           data-aos-duration="600"
           data-aos-easing="linear"
-          className="project-header"
+          className="container-content-header project-header"
         >
           <h1>{t("project.title")}</h1>
-          <div className="project-header-description">
+          <div className="header-content project-header-description">
             <p>{t("project.paragraph")}</p>
           </div>
           <div className="bottom"></div>

@@ -15,10 +15,10 @@ export const Partner = ({ t }) => {
         data-aos="fade-up"
         data-aos-duration="800"
         data-aos-offset="600"
-        className="partner-content"
+        className="container-content-header partner-content"
       >
         <h1>{t("partner.title")}</h1>
-        <div className="partner-description">
+        <div className="header-content partner-description">
           <p>{t("partner.paragraph")}</p>
         </div>
         <div className="bottom"></div>

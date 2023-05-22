@@ -58,7 +58,22 @@
   font-family: "SVN-Gilroy";
   color: white;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 20px;
+  line-height: 21px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.first-sidebar-item {
+  font-family: "SVN-Gilroy";
+  color: var(--color);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 21px;
+  cursor: pointer;
+}
+.first-sidebar-item:hover {
+  color: white;
 }
 .sidebar-item:hover {
   text-decoration: none;
@@ -72,15 +87,18 @@
   margin-top: 20px;
 }
 .sidebar-about > span {
-  color: white;
-  opacity: 0.8;
-  font-size: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.7);
 }
 .profile {
   margin-top: 20px;
 }
 .link_profile > span {
-  font-size: 18px;
+  font-size: 16px;
+  line-height: 17px;
+  font-weight: 400;
   color: var(--color);
   text-decoration: underline var(--color);
 }

@@ -182,52 +182,52 @@
     "paragraph" : "Các thành viên EvoSolution luôn không ngừng tư duy, học hỏi công nghệ mới và sẵn sàng đón nhận cơ hội để trau dồi thêm nhiều kỹ năng và kinh nghiệm. Khao khát sáng tạo luôn luôn hiện hữu trong mọi thành viên tại EvoSolution.",
     "techno_icon" :[
       {
-        "icon" : "../evosolution/img/techno_icon/free-postgresql-226047.png",
+        "icon" : "../evosolution/img/techno_icon/postgresql-icon.png",
         "title" : "PostgreSQL"
       },
       {
-        "icon" : "../evosolution/img/techno_icon/java.png",
+        "icon" : "../evosolution/img/techno_icon/java-icon.png",
         "title" : "Java"
       },
       {
-        "icon" : "../evosolution/img/techno_icon/nodejs.png",
+        "icon" : "../evosolution/img/techno_icon/nodejs-icon.png",
         "title" : "Nodejs"
       },
       {
-        "icon" : "../evosolution/img/techno_icon/php2.png",
+        "icon" : "../evosolution/img/techno_icon/php.png",
         "title" : "PHP"
       },
       {
-        "icon" : "../evosolution/img/techno_icon/lavarel.png",
+        "icon" : "../evosolution/img/techno_icon/laravel.png",
         "title" : "Laravel"
       },
       {
-        "icon" : "../evosolution/img/techno_icon/docker.png",
+        "icon" : "../evosolution/img/techno_icon/docker-icon.png",
         "title" : "Docker"
       },
       {
-        "icon" : "../evosolution/img/techno_icon/react_native.svg",
+        "icon" : "../evosolution/img/techno_icon/reactjs-icon.png",
         "title" : "React Native"
       },
       {
-        "icon" : "../evosolution/img/techno_icon/flutter.png",
+        "icon" : "../evosolution/img/techno_icon/flutterio-icon.png",
         "title" : "Flutter"
       },
       {
-        "icon" : "../evosolution/img/techno_icon/ios.png",
+        "icon" : "../evosolution/img/techno_icon/ios-icon.png",
         "title" : "iOS"
       },
       {
-        "icon" : "../evosolution/img/techno_icon/android_robot.svg",
+        "icon" : "../evosolution/img/techno_icon/android-icon.png",
         "title" : "Android"
       },
       {
-        "icon" : "../evosolution/img/techno_icon/vuejs.svg",
+        "icon" : "../evosolution/img/techno_icon/vuejs-icon.png",
         "title" : "Vuejs"
       },
       {
         "title" : "WordPress",
-        "icon" : "../evosolution/img/techno_icon/wordpress.png"
+        "icon" : "../evosolution/img/techno_icon/wordpress-icon.png"
       }
     ]
   },
@@ -236,37 +236,38 @@
     "paragraph" : "Chúng tôi luôn lấy mục tiêu và đích đến cuối cùng là khách hàng. Vì thế việc bảo đảm và thực hiện cam kết với khách hàng luôn là mục tiêu hàng đầu với chúng tôi.",
     "list_partner" :[
         {
-          "image" : "../evosolution/img/company/vihat.png",
+          "image" : "../evosolution/img/company/logo-vihatt.png",
           "class" : "vihat"
         },
         {
-          "image" : "../evosolution/img/company/testuru.png",
-          "class" : "testuru"
+          "image" : "../evosolution/img/company/logo-joca.png",
+          "class" : "joca"
         },
         {
-          "image" : "../evosolution/img/company/315.png",
-          "class" : "hopistal"
+          "image" : "../evosolution/img/company/logo-trobz.png",
+          "class" : "trobz"
         },
         {
-          "image" : "../evosolution/img/company/mobifone.png",
-          "class"  : "mobifone"
-        },
-        {
-          "image" : "../evosolution/img/company/viettel2.png",
+          "image" : "../evosolution/img/company/logo-viettel.png",
           "class" : "viettel"
         },
         {
-          "image" : "../evosolution/img/company/era.png",
-          "class" : "era"
+          "image" : "../evosolution/img/company/logo-testuru.png",
+          "class" : "testuru"
         },
         {
-          "image" : "../evosolution/img/company/takamart.jpg",
+          "image" : "../evosolution/img/company/logo-takamart.png",
           "class" : "takamart"
-        }, 
+        },
         {
-          "image" : "../evosolution/img/company/trobz.png",
-          "class" : "trobz"
+          "image" : "../evosolution/img/company/logo-315.png",
+          "class" : "hopistal"
+        },
+        {
+          "image" : "../evosolution/img/company/logo-mobi.png",
+          "class"  : "mobifone"
         }
+       
     ]
   },
   "formValidation" : {

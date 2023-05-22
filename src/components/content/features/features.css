@@ -9,10 +9,7 @@
 }
 
 .container-features-header {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+
 }
 .container-content-features {
   margin-top: 70px !important;
@@ -51,14 +48,14 @@
 }
 .card-content {
   width: 350px;
-  height: 450px;
+  height: 400px;
   border-radius: 10px;
-  padding: 0 10px;
+  padding: 0 30px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .card-content:hover {
-  border: 3px solid var(--bg-color) !important;
-  transform: scaleX(0.98);
+  border: 2px solid var(--bg-color) !important;
+  cursor: pointer;
 }
 
 .card-content:hover > .img-card-content > img {
@@ -80,14 +77,16 @@
   text-align: center;
 }
 .card-header > h2 {
-  font-size: 25px;
-  font-weight: 550;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
 }
 .card-description {
   text-align: center;
 }
 .card-description > p {
-  font-size: 22px;
+  font-size: 16px;
+  line-height: 26px;
 }
 @keyframes fadeInDown {
   from {

@@ -69,6 +69,7 @@
   color: var(--text-color);
   font-size: 25px;
   font-weight: 600;
+  line-height: 25px;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 10px;
@@ -76,9 +77,9 @@
 
 .intro-text p {
   color: #fff;
-  font-size: 30px;
-  font-weight: 500;
-  line-height: 40px;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 58px;
   margin: 20px auto 0 auto !important;
 }
 header .intro-text {
@@ -96,11 +97,12 @@ header .intro-text {
   background: linear-gradient(100.54deg, #ffb928 0%, #fecf36 100%);
   letter-spacing: 1px;
   font-weight: bold;
-  padding: 14px 20px;
+  height: 60px;
+  width: 198px;
   letter-spacing: 1px;
   margin-top: 32px;
   font-size: 20px;
-  border-radius: 25px;
+  border-radius: 30px;
   transition: all 0.3s linear;
   border: 0;
 }

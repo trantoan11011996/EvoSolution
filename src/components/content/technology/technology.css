@@ -38,8 +38,7 @@
 }
 .icon-item img {
   height: 80px;
-  filter: grayscale(100%);
-  transition: all ease-in 0.1s;
+  transition: all ease-in 0.2s;
   cursor: pointer;
 }
 .icon-item p {
@@ -47,7 +46,7 @@
   font-weight: 550;
 }
 .icon-item img:hover {
-  filter: grayscale(0%);
+  transform: scale(1.1);
 }
 
 @media only screen and (max-width: 1100px) {
