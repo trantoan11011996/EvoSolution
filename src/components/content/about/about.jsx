@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import { Container, Col, Row } from "react-bootstrap";
 import "./about.css";
 import aos from "aos";
-import { FaRegHandshake } from "react-icons/fa";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 
@@ -15,7 +14,6 @@ export const About = ({ t }) => {
   }, []);
 
   const aboutMap = t("about.about_list", { returnObjects: true });
-  console.log("about", aboutMap);
   return (
     <div className="about" id="about">
       <div className="about-container">

@@ -8,7 +8,6 @@ export const Features = ({ t }) => {
     aos.init({ once: true });
   }, []);
   const titleCard = t("features.titleCard", { returnObjects: true });
-  console.log("title", titleCard);
   return (
     <div id="features" className="text-center features-container">
       {" "}

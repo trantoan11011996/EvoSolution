@@ -20,7 +20,7 @@ export const Header = ({ data, openSideBar, isOpen, t }) => {
     <header id="homepage" className="container-header">
       <div className="logo-image">
         <Link to={"/evosolution"}>
-          <img src="https://evosolution.vn/wp-content/uploads/2021/10/logo.svg" />
+          <img src="../evosolution/img/header/logo.svg" />
         </Link>
       </div>
       <div

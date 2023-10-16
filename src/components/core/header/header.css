@@ -100,8 +100,9 @@ header .intro-text {
   height: 60px;
   width: 198px;
   letter-spacing: 1px;
-  margin-top: 32px;
+  margin-top: 30px;
   font-size: 20px;
+  line-height: 21px;
   border-radius: 30px;
   transition: all 0.3s linear;
   border: 0;

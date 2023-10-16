@@ -8,7 +8,6 @@ export const Partner = ({ t }) => {
     aos.init({ once: true });
   }, []);
   const listPartner = t("partner.list_partner", { returnObjects: true });
-  console.log(listPartner);
   return (
     <div id="partner" className="partner-container">
       <div

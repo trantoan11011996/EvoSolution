@@ -1,302 +1,303 @@
-  {
-      "header": {
-        "title": "EVOSOLUTION TECHNOLOGY JOINT STOCK COMPANY",
-        "paragraph": "We offer a wide range of technology solutions to address your business needs.",
-        "contact" : "Contact now"
+{
+  "header": {
+    "title": "EVOSOLUTION TECHNOLOGY JOINT STOCK COMPANY",
+    "paragraph": "We offer a wide range of technology solutions to address your business needs.",
+    "contact": "Contact now"
+  },
+  "sidebar": {
+    "homepage": {
+      "title": "Home page",
+      "link": "homepage"
+    },
+    "content": [
+      {
+        "title": "Service",
+        "link": "features"
       },
-      "sidebar" : {
-        "homepage" :{
-            "title"  :"Home page",
-            "link" : "homepage"
-        },
-        "content" :[
-          {
-            "title" : "Service",
-            "link" : "features"
-          },
-          {
-            "title": "Project",
-            "link" :"project"
-          },
-          {
-            "title" : "Technology",
-            "link" :"technology"
-          },
-          {
-            "title" : "Client",
-            "link" : "partner"
-          },
-          {
-            "title" :"Contact",
-            "link" : "contact"
-          }
-        ],
-        "paragraph" : "EvoSolution was established in 2016 with a staff of young, dynamic and experienced technology engineers..",
-        "profile" : "Capacity profile"
+      {
+        "title": "Project",
+        "link": "project"
       },
-      "footer" : {
-        "title" : "Contact Us",
-        "form_contact": {
-            "address" : {
-              "label" : "Office",
-              "content" :"4th floor, 292 Ung Van Khiem, ward 25, Binh Thanh district, Ho Chi Minh City.",
-              "map" : "Open with Google map"
-            },
-            "email" :{
-              "label" : "Email",
-              "content" : ""
-            },
-            "phone" :{
-              "label" : "Phone number",
-              "content" : "0979 593 585"
-            },
-            "work_hours" : {
-              "label" : "Working time",
-              "content" : "8:30am - 18:00pm from Monday to Friday"
-            }     
-        },
-        "placeholder"  : {
-          "name" :{
-            "content" : "First and Last name"
-          },
-          "email" : {
-            "content" : "Email"
-          },
-          "phone" :{
-            "content" : "Phone number"
-          },
-          "message" : {
-            "content": "Message"
-          }
-        },
-        "submit" :{
-          "content" : "Send Message"
-        },
-        "notify" : {
-          "success" : "Your information has been sent successfully !",
-          "fail" : "Your information has not been sent successfully, please try again!"
-        }
-      }, 
-      "features" :{
-        "title" : "Service Provided",
-        "paragraph" : "With the advantage of many years of experience in the technology field, we always bring many technology solutions to solve the needs of businesses.",
-        "titleCard" : [
-          {
-            "src" : "https://evosolution.vn/wp-content/uploads/2021/04/Group-363-1-1.svg",
-            "title" : "Website design",
-            "description" : "Consulting to build a professional website according to the requirements of the business."
-          },
-          {
-            "src" : "https://evosolution.vn/wp-content/uploads/2021/04/Group-365-1-1.svg",
-            "title" : "Mobile application design",
-            "description" : "Build applications for many fields on mobile platforms, from native (Android / iOS) to multi-platform using technology (React Native, Flutter)."
-          },
-          {
-            "src" : "https://evosolution.vn/wp-content/uploads/2021/04/Group-367-1-1.svg",
-            "title" : "Consulting technology solutions",
-            "description" : "Advising businesses on solutions to apply 4.0 technology to the operation and management process."
-          },
-          {
-            "src" : "https://evosolution.vn/wp-content/uploads/2021/04/Group-369-1-1.svg",
-            "title" : "Deploy the server system",
-            "description" : "Consulting to build a professional website according to the requirements of the business."
-          },
-          {
-            "src" : "https://evosolution.vn/wp-content/uploads/2021/04/Group-371-1-1.svg",
-            "title" : "Network infrastructure consulting",
-            "description" : "Consulting network infrastructure solutions for businesses, remote connection site-to-site VPN, SSL - VPN, firewall security, wifi cloud system,..."
-          }
-        ]
+      {
+        "title": "Technology",
+        "link": "technology"
       },
-      "about": {
-        "title" : "About Us",
-        "paragraph": "Established in 2016 with a staff of young, dynamic and experienced technology engineers. At EvoSolution, we specialize in providing new technology solutions and services to businesses in many fields..",
-        "icon_title":{
-          "title1" : "For customers",
-          "title2" : "Enthusiasm",
-          "title3" : "Teamwork",
-          "title4" : "Creative",
-          "title5" : "Responsibility"
-        },
-        "about_list": [
-          {
-            "title" : "For customers",
-            "icon" : "https://evosolution.vn/wp-content/uploads/2021/04/Group-350-1-1.svg"
-          },
-          {
-            "title" : "Enthusiasm",
-            "icon"  :"https://evosolution.vn/wp-content/uploads/2021/04/Group-349-1-1.svg"
-          },
-          {
-            "title"  :"Teamwork",
-            "icon" : "https://evosolution.vn/wp-content/uploads/2021/04/Group-351-1-1.svg"
-          },
-          {
-            "title" : "Creative",
-            "icon" : "https://evosolution.vn/wp-content/uploads/2021/04/Group-353-1-1.svg" 
-          },
-          {
-            "title" : "Responsibility",
-            "icon" : "https://evosolution.vn/wp-content/uploads/2021/04/Group-352-1-1.svg"
-          }
-        ]
+      {
+        "title": "Client",
+        "link": "partner"
       },
-      "project": {
-        "title" : "Handed Over Projects",
-        "paragraph" : "We always work with the highest sense of responsibility, always attaching the responsibility of each individual on all daily tasks. Since then, the company is committed to quality with each product and service that the company provides, ensuring the interests of customers in the most reasonable way..",
-        "project_list" : [{
-          "linkProject" : "https://era.edu.vn/",
-          "imageProject": "../evosolution/img/project_company/project1.svg",
-          "titleProject": "ERA . Sex Education",
-          "descProject": "Sex education system for children, updating information and skills for young sex education for families and schools."
-        },
-        {
-          "linkProject" : "https://testuru.com/",
-          "imageProject": "../evosolution/img/project_company/project2.svg",
-          "titleProject": "IELTS mock test online TESTURU",
-          "descProject": "Online IELTS practice test and preparation system"
-        },
-        {
-          "linkProject" : "",
-          "imageProject": "../evosolution/img/project_company/project3.svg",
-          "titleProject": "Timekeeping BWORK",
-          "descProject": "Time attendance application for businesses, manage working hours, late hours from which to calculate the total salary for employees."
-        },
-        {
-          "linkProject" : "",
-          "imageProject": "../evosolution/img/project_company/project4.svg",
-          "titleProject": "JOCO travel social network",
-          "descProject": "Social network to share travel information: destinations, travel experiences, tours, restaurants, hotels."
-        },
-        {
-          "linkProject" : "",
-          "imageProject": "../evosolution/img/project_company/project5.svg",
-          "titleProject": "Takamart",
-          "descProject": "App for buying and selling classifieds, allowing buyers and sellers to connect and transact online."
-        },
-        {
-          "linkProject" : "",
-          "imageProject": "../evosolution/img/project_company/project6.svg",
-          "titleProject": "Phu Quoc Market",
-          "descProject": "Online shopping and classifieds application developed exclusively for people living and working in Phu Quoc."
-        }]
-      },
-      "technology" : {
-        "title" : "Our Technology",
-        "paragraph" : "EvoSolution members are always thinking, learning new technology and ready to accept the opportunity to hone more skills and experience. The desire for creativity is always present in every member at EvoSolution.",
-        "techno_icon" :[
-          {
-            "icon" : "../evosolution/img/techno_icon/postgresql-icon.png",
-            "title" : "PostgreSQL"
-          },
-          {
-            "icon" : "../evosolution/img/techno_icon/java-icon.png",
-            "title" : "Java"
-          },
-          {
-            "icon" : "../evosolution/img/techno_icon/nodejs-icon.png",
-            "title" : "Nodejs"
-          },
-          {
-            "icon" : "../evosolution/img/techno_icon/php.png",
-            "title" : "PHP"
-          },
-          {
-            "icon" : "../evosolution/img/techno_icon/php.png",
-            "title" : "Laravel"
-          },
-          {
-            "icon" : "../evosolution/img/techno_icon/docker-icon.png",
-            "title" : "Docker"
-          },
-          {
-            "icon" : "../evosolution/img/techno_icon/reactjs-icon.png",
-            "title" : "React Native"
-          },
-          {
-            "icon" : "../evosolution/img/techno_icon/flutterio-icon.png",
-            "title" : "Flutter"
-          },
-          {
-            "icon" : "../evosolution/img/techno_icon/ios-icon.png",
-            "title" : "iOS"
-          },
-          {
-            "icon" : "../evosolution/img/techno_icon/android-icon.png",
-            "title" : "Android"
-          },
-          {
-            "icon" : "../evosolution/img/techno_icon/vuejs-icon.png",
-            "title" : "Vuejs"
-          },
-          {
-            "title" : "WordPress",
-            "icon" : "../evosolution/img/techno_icon/wordpress-icon.png"
-          }
-        ]
-      },
-      "partner" : {
-        "title" : "Our Client",
-        "paragraph" : "We always take the goal and the final destination is the customer. Therefore, ensuring and fulfilling commitments to customers is always a top goal for us.",
-        "list_partner" :[
-          {
-            "image" : "../evosolution/img/company/logo-vihatt.png",
-            "class" : "vihat"
-          },
-          {
-            "image" : "../evosolution/img/company/logo-joca.png",
-            "class" : "joca"
-          },
-          {
-            "image" : "../evosolution/img/company/logo-trobz.png",
-            "class" : "trobz"
-          },
-          {
-            "image" : "../evosolution/img/company/logo-viettel.png",
-            "class" : "viettel"
-          },
-          {
-            "image" : "../evosolution/img/company/logo-testuru.png",
-            "class" : "testuru"
-          },
-          {
-            "image" : "../evosolution/img/company/logo-takamart.png",
-            "class" : "takamart"
-          },
-          {
-            "image" : "../evosolution/img/company/logo-315.png",
-            "class" : "hopistal"
-          },
-          {
-            "image" : "../evosolution/img/company/logo-mobi.png",
-            "class"  : "mobifone"
-          }
-      ]
-      },
-      "formValidation" : {
-        "fullname" : {
-          "required" : "This field is required",
-          "minLength" : "Your name must be at least 2 character"
-        },
-        "email" : {
-          "required" : "This field is required",
-          "pattern" : "Please enter the correct email format"
-        },
-        "phoneNumber" : {
-          "required" : "This field is required",
-          "pattern" : "Phone number must be start with 03,07,08,05...",
-          "minLength" : "Phone number only contain 10 character",
-          "maxLength" : "Phone number only contain 10 character"
-        }
-      },
-      "notify" : {
-        "success" : "Your message has been sent successfully !",
-        "fail" : "Your information has not been sent successfully, please try again !"
-      },
-      "btnAction" : {
-        "close" : "Close",
-        "confirm" : "Confirm",
-        "back" : "Back"
+      {
+        "title": "Contact",
+        "link": "contact"
       }
+    ],
+    "paragraph": "EvoSolution was established in 2016 with a staff of young, dynamic and experienced technology engineers..",
+    "profile": "Capacity profile"
+  },
+  "footer": {
+    "title": "Contact Us",
+    "form_contact": {
+      "address": {
+        "label": "Office",
+        "content": "4th floor, 292 Ung Van Khiem, ward 25, Binh Thanh district, Ho Chi Minh City.",
+        "map": "Open with Google map"
+      },
+      "email": {
+        "label": "Email",
+        "content": ""
+      },
+      "phone": {
+        "label": "Phone number",
+        "content": "0979 593 585"
+      },
+      "work_hours": {
+        "label": "Working time",
+        "content": "8:30am - 18:00pm from Monday to Friday"
+      }
+    },
+    "placeholder": {
+      "name": {
+        "content": "First and Last name"
+      },
+      "email": {
+        "content": "Email"
+      },
+      "phone": {
+        "content": "Phone number"
+      },
+      "message": {
+        "content": "Message"
+      }
+    },
+    "submit": {
+      "content": "Send Message"
+    },
+    "notify": {
+      "success": "Your information has been sent successfully !",
+      "fail": "Your information has not been sent successfully, please try again!"
     }
-    
+  },
+  "features": {
+    "title": "Service Provided",
+    "paragraph": "With the advantage of many years of experience in the technology field, we always bring many technology solutions to solve the needs of businesses.",
+    "titleCard": [
+      {
+        "src": "../evosolution/img/top_img/top_1.svg",
+        "title": "Website design",
+        "description": "Consulting to build a professional website according to the requirements of the business."
+      },
+      {
+        "src": "../evosolution/img/top_img/top_2.svg",
+        "title": "Mobile application design",
+        "description": "Build applications for many fields on mobile platforms, from native (Android / iOS) to multi-platform using technology (React Native, Flutter)."
+      },
+      {
+        "src": "../evosolution/img/top_img/top_3.svg",
+        "title": "Consulting technology solutions",
+        "description": "Advising businesses on solutions to apply 4.0 technology to the operation and management process."
+      },
+      {
+        "src": "../evosolution/img/top_img/top_4.svg",
+        "title": "Deploy the server system",
+        "description": "Consulting to build a professional website according to the requirements of the business."
+      },
+      {
+        "src": "../evosolution/img/top_img/top_5.svg",
+        "title": "Network infrastructure consulting",
+        "description": "Consulting network infrastructure solutions for businesses, remote connection site-to-site VPN, SSL - VPN, firewall security, wifi cloud system,..."
+      }
+    ]
+  },
+  "about": {
+    "title": "About Us",
+    "paragraph": "Established in 2016 with a staff of young, dynamic and experienced technology engineers. At EvoSolution, we specialize in providing new technology solutions and services to businesses in many fields..",
+    "icon_title": {
+      "title1": "For customers",
+      "title2": "Enthusiasm",
+      "title3": "Teamwork",
+      "title4": "Creative",
+      "title5": "Responsibility"
+    },
+    "about_list": [
+      {
+        "title": "For customers",
+        "icon": "../evosolution/img/about_img/about_1.svg"
+      },
+      {
+        "title": "Enthusiasm",
+        "icon": "../evosolution/img/about_img/about_2.svg"
+      },
+      {
+        "title": "Teamwork",
+        "icon": "../evosolution/img/about_img/about_3.svg"
+      },
+      {
+        "title": "Creative",
+        "icon": "../evosolution/img/about_img/about_4.svg"
+      },
+      {
+        "title": "Responsibility",
+        "icon": "../evosolution/img/about_img/about_5.svg"
+      }
+    ]
+  },
+  "project": {
+    "title": "Handed Over Projects",
+    "paragraph": "We always work with the highest sense of responsibility, always attaching the responsibility of each individual on all daily tasks. Since then, the company is committed to quality with each product and service that the company provides, ensuring the interests of customers in the most reasonable way..",
+    "project_list": [
+      {
+        "linkProject": "https://era.edu.vn/",
+        "imageProject": "../evosolution/img/project_company/project1.svg",
+        "titleProject": "ERA . Sex Education",
+        "descProject": "Sex education system for children, updating information and skills for young sex education for families and schools."
+      },
+      {
+        "linkProject": "https://testuru.com/",
+        "imageProject": "../evosolution/img/project_company/project2.svg",
+        "titleProject": "IELTS mock test online TESTURU",
+        "descProject": "Online IELTS practice test and preparation system"
+      },
+      {
+        "linkProject": "",
+        "imageProject": "../evosolution/img/project_company/project3.svg",
+        "titleProject": "Timekeeping BWORK",
+        "descProject": "Time attendance application for businesses, manage working hours, late hours from which to calculate the total salary for employees."
+      },
+      {
+        "linkProject": "",
+        "imageProject": "../evosolution/img/project_company/project4.svg",
+        "titleProject": "JOCO travel social network",
+        "descProject": "Social network to share travel information: destinations, travel experiences, tours, restaurants, hotels."
+      },
+      {
+        "linkProject": "",
+        "imageProject": "../evosolution/img/project_company/project5.svg",
+        "titleProject": "Takamart",
+        "descProject": "App for buying and selling classifieds, allowing buyers and sellers to connect and transact online."
+      },
+      {
+        "linkProject": "",
+        "imageProject": "../evosolution/img/project_company/project6.svg",
+        "titleProject": "Phu Quoc Market",
+        "descProject": "Online shopping and classifieds application developed exclusively for people living and working in Phu Quoc."
+      }
+    ]
+  },
+  "technology": {
+    "title": "Our Technology",
+    "paragraph": "EvoSolution members are always thinking, learning new technology and ready to accept the opportunity to hone more skills and experience. The desire for creativity is always present in every member at EvoSolution.",
+    "techno_icon": [
+      {
+        "icon": "../evosolution/img/techno_icon/postgresql-icon.png",
+        "title": "PostgreSQL"
+      },
+      {
+        "icon": "../evosolution/img/techno_icon/java-icon.png",
+        "title": "Java"
+      },
+      {
+        "icon": "../evosolution/img/techno_icon/nodejs-icon.png",
+        "title": "Nodejs"
+      },
+      {
+        "icon": "../evosolution/img/techno_icon/php.png",
+        "title": "PHP"
+      },
+      {
+        "icon": "../evosolution/img/techno_icon/php.png",
+        "title": "Laravel"
+      },
+      {
+        "icon": "../evosolution/img/techno_icon/docker-icon.png",
+        "title": "Docker"
+      },
+      {
+        "icon": "../evosolution/img/techno_icon/reactjs-icon.png",
+        "title": "React Native"
+      },
+      {
+        "icon": "../evosolution/img/techno_icon/flutterio-icon.png",
+        "title": "Flutter"
+      },
+      {
+        "icon": "../evosolution/img/techno_icon/ios-icon.png",
+        "title": "iOS"
+      },
+      {
+        "icon": "../evosolution/img/techno_icon/android-icon.png",
+        "title": "Android"
+      },
+      {
+        "icon": "../evosolution/img/techno_icon/vuejs-icon.png",
+        "title": "Vuejs"
+      },
+      {
+        "title": "WordPress",
+        "icon": "../evosolution/img/techno_icon/wordpress-icon.png"
+      }
+    ]
+  },
+  "partner": {
+    "title": "Our Client",
+    "paragraph": "We always take the goal and the final destination is the customer. Therefore, ensuring and fulfilling commitments to customers is always a top goal for us.",
+    "list_partner": [
+      {
+        "image": "../evosolution/img/company/logo-vihatt.png",
+        "class": "vihat"
+      },
+      {
+        "image": "../evosolution/img/company/logo-joca.png",
+        "class": "joca"
+      },
+      {
+        "image": "../evosolution/img/company/logo-trobz.png",
+        "class": "trobz"
+      },
+      {
+        "image": "../evosolution/img/company/logo-viettel.png",
+        "class": "viettel"
+      },
+      {
+        "image": "../evosolution/img/company/logo-testuru.png",
+        "class": "testuru"
+      },
+      {
+        "image": "../evosolution/img/company/logo-takamart.png",
+        "class": "takamart"
+      },
+      {
+        "image": "../evosolution/img/company/logo-315.png",
+        "class": "hopistal"
+      },
+      {
+        "image": "../evosolution/img/company/logo-mobi.png",
+        "class": "mobifone"
+      }
+    ]
+  },
+  "formValidation": {
+    "fullname": {
+      "required": "This field is required",
+      "minLength": "Your name must be at least 2 character"
+    },
+    "email": {
+      "required": "This field is required",
+      "pattern": "Please enter the correct email format"
+    },
+    "phoneNumber": {
+      "required": "This field is required",
+      "pattern": "Phone number must be start with 03,07,08,05...",
+      "minLength": "Phone number only contain 10 character",
+      "maxLength": "Phone number only contain 10 character"
+    }
+  },
+  "notify": {
+    "success": "Your message has been sent successfully !",
+    "fail": "Your information has not been sent successfully, please try again !"
+  },
+  "btnAction": {
+    "close": "Close",
+    "confirm": "Confirm",
+    "back": "Back"
+  }
+}

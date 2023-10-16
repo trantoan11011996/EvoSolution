@@ -1,5 +1,5 @@
 .footer-container {
-  background-image: url(https://evosolution.vn/wp-content/uploads/2021/04/pexels-david-yu-2081166-1-1.svg);
+  background-image: url("../../../../public/img/footer/bg_footer.svg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
