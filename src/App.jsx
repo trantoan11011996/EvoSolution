@@ -27,7 +27,7 @@ const App = () => {
           <Routes>
             <Route
               exact={true}
-              path="/evosolution"
+              path="/"
               element={<MainApp />}
             ></Route>
             <Route path="/404" element={<NotFoundPage />} />
