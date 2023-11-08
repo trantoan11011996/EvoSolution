@@ -1,7 +1,6 @@
 {
   "name": "evosolution",
   "private": true,
-  "homepage": "https://trantoan11011996.github.io/evosolution",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@emotion/react": "^11.7.1",
@@ -47,8 +46,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -2,7 +2,7 @@ import React from "react";
 import ParticlesBg from "../../share/particleBg";
 import "./header.css";
 import { Link } from "react-router-dom";
-
+import logo from './logo.svg'
 export const Header = ({ data, openSideBar, isOpen, t }) => {
   const handleOpenSideBar = () => {
     openSideBar();
@@ -19,8 +19,8 @@ export const Header = ({ data, openSideBar, isOpen, t }) => {
   return (
     <header id="homepage" className="container-header">
       <div className="logo-image">
-        <Link to={"/evosolution"}>
-          <img src="../evosolution/img/header/logo.svg" />
+        <Link to={"/"}>
+          <img src={logo} alt="logo" />
         </Link>
       </div>
       <div

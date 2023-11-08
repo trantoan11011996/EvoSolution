@@ -1,11 +1,11 @@
-# version: "3.7"
-# services:
-#   evosolution:
-#     container_name: evosolution-c
-#     image: evosolution-i
-#     build:
-#       context: .
-#     ports:
-#       - "9292:80" # map 80 in container => 9292 in local
-
-
+version: '3.8'
+services:
+  nginx:
+    build:
+      context: .
+    ports:
+      - 80:80
+    volumes:
+      - ./build:/usr/share/nginx/html
+      - ./default.config:/etc/nginx/conf.d/default.conf
+      #docker compose -p evosolution-frontend up -d
