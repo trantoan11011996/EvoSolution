@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  evosolution:
+    container_name: evosolution-c
+    image: evosolution-i
+    build:
+      context: .
+    ports:
+      - "9292:80" # map 80 in container => 9292 in local
