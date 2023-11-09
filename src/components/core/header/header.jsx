@@ -2,7 +2,7 @@ import React from "react";
 import ParticlesBg from "../../share/particleBg";
 import "./header.css";
 import { Link } from "react-router-dom";
-import logo from './logo.svg'
+import logo from '../../../assets/img/header/logo.svg'
 export const Header = ({ data, openSideBar, isOpen, t }) => {
   const handleOpenSideBar = () => {
     openSideBar();
