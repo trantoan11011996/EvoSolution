@@ -3,6 +3,13 @@ import { useEffect } from "react";
 import "./features.css";
 import aos from "aos";
 import "aos/dist/aos.css";
+function importAll(r) {
+  let images = {};
+  r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
+  return images;
+}
+const images = importAll(require.context('../../../assets/img/top_img', false, /\.(png|jpe?g|svg)$/));
+
 export const Features = ({ t }) => {
   useEffect(() => {
     aos.init({ once: true });
@@ -27,7 +34,7 @@ export const Features = ({ t }) => {
               className="card-content"
             >
               <div className="img-card-content">
-                <img src={titleCard[0]?.src} />
+                <img src={images[titleCard[0]?.src]} />
               </div>
               <div className="card-content-description">
                 <div className="card-header">
@@ -44,7 +51,7 @@ export const Features = ({ t }) => {
               className="card-content"
             >
               <div className="img-card-content">
-                <img src={titleCard[1]?.src} />
+                <img src={images[titleCard[1]?.src]} />
               </div>
               <div className="card-content-description">
                 <div className="card-header">
@@ -62,7 +69,7 @@ export const Features = ({ t }) => {
             >
               {" "}
               <div className="img-card-content">
-                <img src={titleCard[2]?.src} />
+                <img src={images[titleCard[2]?.src]} />
               </div>
               <div className="card-content-description">
                 <div className="card-header">
@@ -82,7 +89,7 @@ export const Features = ({ t }) => {
             >
               {" "}
               <div className="img-card-content">
-                <img src={titleCard[3]?.src} />
+                <img src={images[titleCard[3]?.src]} />
               </div>
               <div className="card-content-description">
                 <div className="card-header">
@@ -100,7 +107,7 @@ export const Features = ({ t }) => {
             >
               {" "}
               <div className="img-card-content">
-                <img src={titleCard[4]?.src} />
+                <img src={images[titleCard[4]?.src]} />
               </div>
               <div className="card-content-description">
                 <div className="card-header">
@@ -121,7 +128,7 @@ export const Features = ({ t }) => {
               data-aos-duration="1500"
             >
               <div className="img-card-content">
-                <img src={titleCard[0]?.src} />
+                <img src={images[titleCard[0]?.src]} />
               </div>
               <div className="card-content-description">
                 <div className="card-header">
@@ -138,7 +145,7 @@ export const Features = ({ t }) => {
               data-aos-duration="1500"
             >
               <div className="img-card-content">
-                <img src={titleCard[1]?.src} />
+                <img src={images[titleCard[1]?.src]} />
               </div>
               <div className="card-content-description">
                 <div className="card-header">
@@ -157,7 +164,7 @@ export const Features = ({ t }) => {
               data-aos-duration="1500"
             >
               <div className="img-card-content">
-                <img src={titleCard[2]?.src} />
+                <img src={images[titleCard[2]?.src]} />
               </div>
               <div className="card-content-description">
                 <div className="card-header">
@@ -174,7 +181,7 @@ export const Features = ({ t }) => {
               data-aos-duration="1500"
             >
               <div className="img-card-content">
-                <img src={titleCard[3]?.src} />
+                <img src={images[titleCard[3]?.src]} />
               </div>
               <div className="card-content-description">
                 <div className="card-header">
@@ -193,7 +200,7 @@ export const Features = ({ t }) => {
               data-aos-duration="1500"
             >
               <div className="img-card-content">
-                <img src={titleCard[4]?.src} />
+                <img src={images[titleCard[4]?.src]} />
               </div>
               <div className="card-content-description">
                 <div className="card-header">
@@ -214,7 +221,7 @@ export const Features = ({ t }) => {
               data-aos-duration="1500"
             >
               <div className="img-card-content">
-                <img src={titleCard[0]?.src} />
+                <img src={images[titleCard[0]?.src]} />
               </div>
               <div className="card-content-description">
                 <div className="card-header">
@@ -233,7 +240,7 @@ export const Features = ({ t }) => {
               data-aos-duration="1500"
             >
               <div className="img-card-content">
-                <img src={titleCard[1]?.src} />
+                <img src={images[titleCard[1]?.src]} />
               </div>
               <div className="card-content-description">
                 <div className="card-header">
@@ -252,7 +259,7 @@ export const Features = ({ t }) => {
               data-aos-duration="1500"
             >
               <div className="img-card-content">
-                <img src={titleCard[2]?.src} />
+                <img src={images[titleCard[2]?.src]} />
               </div>
               <div className="card-content-description">
                 <div className="card-header">
@@ -271,7 +278,7 @@ export const Features = ({ t }) => {
               data-aos-duration="1500"
             >
               <div className="img-card-content">
-                <img src={titleCard[3]?.src} />
+                <img src={images[titleCard[3]?.src]} />
               </div>
               <div className="card-content-description">
                 <div className="card-header">
@@ -290,7 +297,7 @@ export const Features = ({ t }) => {
               data-aos-duration="1500"
             >
               <div className="img-card-content">
-                <img src={titleCard[4]?.src} />
+                <img src={images[titleCard[4]?.src]} />
               </div>
               <div className="card-content-description">
                 <div className="card-header">

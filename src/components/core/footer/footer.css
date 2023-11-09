@@ -42,13 +42,16 @@
   font-weight: 400;
   line-height: 26px;
 }
-.map {
+.map,
+.email {
   display: block;
 }
-.map > a {
+.map > a,
+.email >a {
   font-size: 16px;
   line-height: 24px;
 }
+
 .footer-form {
   padding: 25px 20px;
   display: flex;

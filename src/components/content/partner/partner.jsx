@@ -2,6 +2,12 @@ import React, { useEffect } from "react";
 import "./partner.css";
 import "./partner-img.css";
 import aos from "aos";
+function importAll(r) {
+  let images = {};
+  r.keys().map((item) => { images[item.replace('./', '')] = r(item); });
+  return images;
+}
+const images = importAll(require.context('../../../assets/img/company', false, /\.(png|jpe?g|svg)$/));
 
 export const Partner = ({ t }) => {
   useEffect(() => {
@@ -32,7 +38,7 @@ export const Partner = ({ t }) => {
         {listPartner?.map((item, index) => {
           return (
             <div className="partner">
-              <img className={item.class} src={item.image} key={index} />
+              <img className={item.class} src={images[item.image]} key={index} />
             </div>
           );
         })}

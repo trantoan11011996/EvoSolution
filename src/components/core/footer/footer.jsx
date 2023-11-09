@@ -214,9 +214,11 @@ export const Footer = ({ t }) => {
           </div>
           <div className="contact mb-5">
             <h1>{t("footer.form_contact.email.label")}</h1>
-            <a href="mailto:trantoan110119996@gmail.com" target="_blank">
-              {t("footer.form_contact.email.content")}
-            </a>
+            <div className="email">
+              <a href="mailto:trantoan110119996@gmail.com" target="_blank">
+                {t("footer.form_contact.email.content")}
+              </a>
+            </div>
           </div>
           <div className="contact mb-5">
             <h1>{t("footer.form_contact.phone.label")}</h1>

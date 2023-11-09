@@ -1,12 +1,18 @@
 import React, { useEffect } from "react";
-import { Container, Col, Row } from "react-bootstrap";
 import "./about.css";
 import aos from "aos";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
-
 import "swiper/css";
 import "swiper/css/pagination";
+
+function importAll(r) {
+  let images = {};
+  r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
+  return images;
+}
+const images = importAll(require.context('../../../assets/img/about_img', false, /\.(png|jpe?g|svg)$/));
+
 
 export const About = ({ t }) => {
   useEffect(() => {
@@ -43,7 +49,7 @@ export const About = ({ t }) => {
                 className="icon-content"
               >
                 <div className="img-container">
-                  <img src={item.icon}></img>
+                  <img src={images[item.icon]} ></img>
                 </div>
                 <p>{item.title}</p>
               </div>
@@ -87,7 +93,7 @@ export const About = ({ t }) => {
                     className="icon-content"
                   >
                     <div className="img-container">
-                      <img src={item.icon}></img>
+                      <img src={images[item.icon]} ></img>
                     </div>
                     <p>{item.title}</p>
                   </div>

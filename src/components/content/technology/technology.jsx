@@ -1,6 +1,13 @@
 import React, { useEffect } from "react";
 import "./technology.css";
 import aos from "aos";
+function importAll(r) {
+  let images = {};
+  r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
+  return images;
+}
+const images = importAll(require.context('../../../assets/img/techno_icon', false, /\.(png|jpe?g|svg)$/));
+
 export const Technology = ({ t }) => {
   useEffect(() => {
     aos.init({ once: true });
@@ -31,7 +38,7 @@ export const Technology = ({ t }) => {
         {listTechnology?.map((item, index) => {
           return (
             <div key={index} className="icon-item mb-5">
-              <img src={item.icon} />
+              <img src={images[item.icon]} />
               <p>{item.title}</p>
             </div>
           );

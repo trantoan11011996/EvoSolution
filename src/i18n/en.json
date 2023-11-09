@@ -44,7 +44,7 @@
       },
       "email": {
         "label": "Email",
-        "content": ""
+        "content": "hoan.phungdang@evotek.vn"
       },
       "phone": {
         "label": "Phone number",
@@ -82,27 +82,27 @@
     "paragraph": "With the advantage of many years of experience in the technology field, we always bring many technology solutions to solve the needs of businesses.",
     "titleCard": [
       {
-        "src": "../evosolution/img/top_img/top_1.svg",
+        "src": "top_1.svg",
         "title": "Website design",
         "description": "Consulting to build a professional website according to the requirements of the business."
       },
       {
-        "src": "../evosolution/img/top_img/top_2.svg",
+        "src": "top_2.svg",
         "title": "Mobile application design",
         "description": "Build applications for many fields on mobile platforms, from native (Android / iOS) to multi-platform using technology (React Native, Flutter)."
       },
       {
-        "src": "../evosolution/img/top_img/top_3.svg",
+        "src": "top_3.svg",
         "title": "Consulting technology solutions",
         "description": "Advising businesses on solutions to apply 4.0 technology to the operation and management process."
       },
       {
-        "src": "../evosolution/img/top_img/top_4.svg",
+        "src": "top_4.svg",
         "title": "Deploy the server system",
         "description": "Consulting to build a professional website according to the requirements of the business."
       },
       {
-        "src": "../evosolution/img/top_img/top_5.svg",
+        "src": "top_5.svg",
         "title": "Network infrastructure consulting",
         "description": "Consulting network infrastructure solutions for businesses, remote connection site-to-site VPN, SSL - VPN, firewall security, wifi cloud system,..."
       }
@@ -121,23 +121,23 @@
     "about_list": [
       {
         "title": "For customers",
-        "icon": "../evosolution/img/about_img/about_1.svg"
+        "icon": "about_1.svg"
       },
       {
         "title": "Enthusiasm",
-        "icon": "../evosolution/img/about_img/about_2.svg"
+        "icon": "about_2.svg"
       },
       {
         "title": "Teamwork",
-        "icon": "../evosolution/img/about_img/about_3.svg"
+        "icon": "about_3.svg"
       },
       {
         "title": "Creative",
-        "icon": "../evosolution/img/about_img/about_4.svg"
+        "icon": "about_4.svg"
       },
       {
         "title": "Responsibility",
-        "icon": "../evosolution/img/about_img/about_5.svg"
+        "icon": "about_5.svg"
       }
     ]
   },
@@ -147,37 +147,37 @@
     "project_list": [
       {
         "linkProject": "https://era.edu.vn/",
-        "imageProject": "../evosolution/img/project_company/project1.svg",
+        "imageProject": "project1.svg",
         "titleProject": "ERA . Sex Education",
         "descProject": "Sex education system for children, updating information and skills for young sex education for families and schools."
       },
       {
         "linkProject": "https://testuru.com/",
-        "imageProject": "../evosolution/img/project_company/project2.svg",
+        "imageProject": "project2.svg",
         "titleProject": "IELTS mock test online TESTURU",
         "descProject": "Online IELTS practice test and preparation system"
       },
       {
         "linkProject": "",
-        "imageProject": "../evosolution/img/project_company/project3.svg",
+        "imageProject": "project3.svg",
         "titleProject": "Timekeeping BWORK",
         "descProject": "Time attendance application for businesses, manage working hours, late hours from which to calculate the total salary for employees."
       },
       {
         "linkProject": "",
-        "imageProject": "../evosolution/img/project_company/project4.svg",
+        "imageProject": "project4.svg",
         "titleProject": "JOCO travel social network",
         "descProject": "Social network to share travel information: destinations, travel experiences, tours, restaurants, hotels."
       },
       {
         "linkProject": "",
-        "imageProject": "../evosolution/img/project_company/project5.svg",
+        "imageProject": "project5.svg",
         "titleProject": "Takamart",
         "descProject": "App for buying and selling classifieds, allowing buyers and sellers to connect and transact online."
       },
       {
         "linkProject": "",
-        "imageProject": "../evosolution/img/project_company/project6.svg",
+        "imageProject": "project6.svg",
         "titleProject": "Phu Quoc Market",
         "descProject": "Online shopping and classifieds application developed exclusively for people living and working in Phu Quoc."
       }
@@ -188,52 +188,52 @@
     "paragraph": "EvoSolution members are always thinking, learning new technology and ready to accept the opportunity to hone more skills and experience. The desire for creativity is always present in every member at EvoSolution.",
     "techno_icon": [
       {
-        "icon": "../evosolution/img/techno_icon/postgresql-icon.png",
+        "icon": "postgresql-icon.png",
         "title": "PostgreSQL"
       },
       {
-        "icon": "../evosolution/img/techno_icon/java-icon.png",
+        "icon": "java-icon.png",
         "title": "Java"
       },
       {
-        "icon": "../evosolution/img/techno_icon/nodejs-icon.png",
+        "icon": "nodejs-icon.png",
         "title": "Nodejs"
       },
       {
-        "icon": "../evosolution/img/techno_icon/php.png",
+        "icon": "php.png",
         "title": "PHP"
       },
       {
-        "icon": "../evosolution/img/techno_icon/php.png",
+        "icon": "php.png",
         "title": "Laravel"
       },
       {
-        "icon": "../evosolution/img/techno_icon/docker-icon.png",
+        "icon": "docker-icon.png",
         "title": "Docker"
       },
       {
-        "icon": "../evosolution/img/techno_icon/reactjs-icon.png",
+        "icon": "reactjs-icon.png",
         "title": "React Native"
       },
       {
-        "icon": "../evosolution/img/techno_icon/flutterio-icon.png",
+        "icon": "flutterio-icon.png",
         "title": "Flutter"
       },
       {
-        "icon": "../evosolution/img/techno_icon/ios-icon.png",
+        "icon": "ios-icon.png",
         "title": "iOS"
       },
       {
-        "icon": "../evosolution/img/techno_icon/android-icon.png",
+        "icon": "android-icon.png",
         "title": "Android"
       },
       {
-        "icon": "../evosolution/img/techno_icon/vuejs-icon.png",
+        "icon": "vuejs-icon.png",
         "title": "Vuejs"
       },
       {
         "title": "WordPress",
-        "icon": "../evosolution/img/techno_icon/wordpress-icon.png"
+        "icon": "wordpress-icon.png"
       }
     ]
   },
@@ -242,35 +242,35 @@
     "paragraph": "We always take the goal and the final destination is the customer. Therefore, ensuring and fulfilling commitments to customers is always a top goal for us.",
     "list_partner": [
       {
-        "image": "../evosolution/img/company/logo-vihatt.png",
+        "image": "logo-vihatt.png",
         "class": "vihat"
       },
       {
-        "image": "../evosolution/img/company/logo-joca.png",
+        "image": "logo-joca.png",
         "class": "joca"
       },
       {
-        "image": "../evosolution/img/company/logo-trobz.png",
+        "image": "logo-trobz.png",
         "class": "trobz"
       },
       {
-        "image": "../evosolution/img/company/logo-viettel.png",
+        "image": "logo-viettel.png",
         "class": "viettel"
       },
       {
-        "image": "../evosolution/img/company/logo-testuru.png",
+        "image": "logo-testuru.png",
         "class": "testuru"
       },
       {
-        "image": "../evosolution/img/company/logo-takamart.png",
+        "image": "logo-takamart.png",
         "class": "takamart"
       },
       {
-        "image": "../evosolution/img/company/logo-315.png",
+        "image": "logo-315.png",
         "class": "hopistal"
       },
       {
-        "image": "../evosolution/img/company/logo-mobi.png",
+        "image": "logo-mobi.png",
         "class": "mobifone"
       }
     ]

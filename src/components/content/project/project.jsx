@@ -4,6 +4,13 @@ import { Col, Container, Row } from "react-bootstrap";
 import "./project.css";
 import aos from "aos";
 import { FaExternalLinkAlt } from "react-icons/fa";
+function importAll(r) {
+  let images = {};
+  r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
+  return images;
+}
+const images = importAll(require.context('../../../assets/img/project_company', false, /\.(png|jpe?g|svg)$/));
+
 export const Project = ({ t }) => {
   useEffect(() => {
     aos.init({ once: true });
@@ -37,7 +44,7 @@ export const Project = ({ t }) => {
                 >
                   <a href={item.linkProject} target="_blank">
                     <div className="image-project mb-3">
-                      <img src={item.imageProject} />
+                      <img src={images[item.imageProject]} />
                       <div className="overlay">
                         <FaExternalLinkAlt className="icon-link-project"></FaExternalLinkAlt>{" "}
                       </div>
